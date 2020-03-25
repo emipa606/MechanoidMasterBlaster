@@ -111,7 +111,7 @@
 		<menuHidden>true</menuHidden>
 		<description>Evolved defense building, primarily made to support against incoming ground units. Outsorted models were taken out and misused to beat down riots on Jailplanets. Has a Shockwave Gun with an AI target acquisition attached to it. The central weapon system is mounted on an auto turret.</description>
 		<graphicData>
-			<texPath>Things/Building/Security/MechanoidShockwaveGun</texPath>
+			<texPath>Things/Building/Security/MechanoidShockwaveGun_11</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>

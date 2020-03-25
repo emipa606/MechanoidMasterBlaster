@@ -110,7 +110,7 @@
 		<menuHidden>true</menuHidden>
 		<description>Evolved defense building, primarily made for stationary warfare against heavy ordinance - on planets of importance. Has a Laser Cannon with a long range target acquisition attached to it. The central weapon system is mounted on an auto turret. Relies on Mechanoid Technology.</description>
 		<graphicData>
-			<texPath>Things/Building/Security/MechanoidLaserGun</texPath>
+			<texPath>Things/Building/Security/MechanoidLaserGun_11</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>

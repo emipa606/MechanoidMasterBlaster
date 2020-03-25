@@ -122,7 +122,7 @@
 		<menuHidden>true</menuHidden>
 		<description>Evolved defense building with an unbelievable firerate and low accuracy, designed to maw down anything entering its security zone. Has a Trinity Gun, which is fed by 4 large ammunition containers with magnum breaker cartridges inside. The central weapon system is mounted on an auto turret. Needs steel to renew the barrels after heave use. Can be upgraded.</description>
 		<graphicData>
-			<texPath>Things/Building/Security/MechanoidTrinityGun</texPath>
+			<texPath>Things/Building/Security/MechanoidTrinityGun_11</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>

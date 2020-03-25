@@ -125,7 +125,7 @@
 		<menuHidden>true</menuHidden>
 		<description>Evolved defense building, primarily made to sieve through approaching combat forces with its superior firepower. Has high velocity fastcharger guns with an adaptive AI target system attached to it. The central weapon system is mounted on an auto turret.</description>
 		<graphicData>
-			<texPath>Things/Building/Security/MechanoidMultiGun</texPath>
+			<texPath>Things/Building/Security/MechanoidMultiGun_11</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>

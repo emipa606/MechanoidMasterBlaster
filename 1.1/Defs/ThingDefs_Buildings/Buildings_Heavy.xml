@@ -111,7 +111,7 @@
 		<menuHidden>true</menuHidden>
 		<description>Evolved defense building, primarily made to slow down any incoming offenses with its reactive orbs. The fireline Novagun is guided by an AI Smartfire upgrade and scans the surrounding area for thermal signatures and movement. The central weapon system is mounted on an auto turret.</description>
 		<graphicData>
-			<texPath>Things/Building/Security/MechanoidDevastatorGun</texPath>
+			<texPath>Things/Building/Security/MechanoidDevastatorGun_11</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>

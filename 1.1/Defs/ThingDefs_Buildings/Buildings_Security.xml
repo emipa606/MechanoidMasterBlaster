@@ -115,7 +115,7 @@
 		<menuHidden>true</menuHidden>
 		<description>Evolved defense building, primarily made for stationary warfare against xenomorphic insectoids and mechanoid swarms - on planets of importance. Has 4 Blaster Cannons with a long range target acquisition attached to it. The central weapon system is mounted on an auto turret of a sturdy nature. Relies on Mechanoid Technology.</description>
 		<graphicData>
-			<texPath>Things/Building/Security/MechanoidTurretGun</texPath>
+			<texPath>Things/Building/Security/MechanoidTurretGun_11</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>
