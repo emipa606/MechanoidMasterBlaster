@@ -153,7 +153,6 @@
 								<li Class="CombatExtended.CompProperties_AmmoUser">
 									<magazineSize>100</magazineSize>
 									<reloadTime>7.8</reloadTime>
-									<spawnUnloaded>false</spawnUnloaded>
 									<ammoSet>AmmoSet_30x64mmFuel</ammoSet>
 								</li>
 							</comps>
@@ -272,6 +271,7 @@
 							<soundInteract>Interact_Rifle</soundInteract>
 							<tradeability>None</tradeability>
 							<destroyOnDrop>true</destroyOnDrop>
+							<tickerType>Normal</tickerType>
 							<statBases>
 								<SightsEfficiency>0.88</SightsEfficiency>
 								<ShotSpread>0.05</ShotSpread>
@@ -313,10 +313,10 @@
 									<noSingleShot>true</noSingleShot>
 								</li>
 								<li Class="CombatExtended.CompProperties_ExplosiveCE">
-									<explosionDamage>15</explosionDamage>
-									<explosionDamageDef>Bomb</explosionDamageDef>
-									<explosionRadius>2.5</explosionRadius>
-									<soundExplode>Explosion_Stun</soundExplode>
+									<damageAmountBase>15</damageAmountBase>
+									<explosiveDamageType>Bomb</explosiveDamageType>
+									<explosiveRadius>2.5</explosiveRadius>
+									<explosionSound>Explosion_Stun</explosionSound>
 								</li>
 							</comps>
 						</ThingDef>
