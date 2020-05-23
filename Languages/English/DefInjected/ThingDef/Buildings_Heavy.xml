@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MPC_MechanoidDevastatorTurret.label>Mechanoid Devastator</MPC_MechanoidDevastatorTurret.label>
+  <MPC_MechanoidDevastatorTurret.description>A turret with a heavy Novagun on top that automatically fires at nearby and distant enemies. Has a chance to explode in an inferno when damaged.\n\nEvolved defense building, primarily made to slow down any incoming offenses with its reactive orbs. The fireline Novagun is guided by an AI Smartfire upgrade and scans the surrounding area for thermal signatures and movement. The central weapon system is mounted on an auto turret. The case can be slightly improved.</MPC_MechanoidDevastatorTurret.description>
+
+  <Bullet_MechanoidDevastatorTurret.label>Blizzard Shards</Bullet_MechanoidDevastatorTurret.label>
+
+  <Gun_MechanoidDevastatorTurret.label>Mechanoid Devastator</Gun_MechanoidDevastatorTurret.label>
+  <Gun_MechanoidDevastatorTurret.description>Evolved defense building, primarily made to slow down any incoming offenses with its reactive orbs. The fireline Novagun is guided by an AI Smartfire upgrade and scans the surrounding area for thermal signatures and movement. The central weapon system is mounted on an auto turret.</Gun_MechanoidDevastatorTurret.description>
+
+
+</LanguageData>

@@ -1,152 +1,151 @@
-<?xml version="1.0" encoding="utf-8" ?>
-
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<ThingDef ParentName="BuildingBase">
-		<defName>MPC_MechanoidDevastatorTurret</defName>
-		<label>Mechanoid Devastator</label>
-		<thingClass>Building_TurretGun</thingClass>
-		<graphicData>
-			<texPath>Things/Building/Security/MechanoidZoneTurretBase</texPath>
-			<shaderType>CutoutComplex</shaderType>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(2,2)</drawSize>
-			<damageData>
-				<rect>(0.2,0.2,0.6,0.6)</rect>
-			</damageData>
-		</graphicData>
-		<castEdgeShadows>true</castEdgeShadows>
-		<minifiedDef>MinifiedThing</minifiedDef>
-		<uiIconPath>Things/Building/Security/MechanoidDevastatorGun</uiIconPath>
-		<altitudeLayer>BuildingOnTop</altitudeLayer>
-		<pathCost>70</pathCost>
-		<statBases>
-			<MaxHitPoints>800</MaxHitPoints>
-			<Flammability>0.35</Flammability>
-			<WorkToBuild>5600</WorkToBuild>
-			<Mass>150</Mass>
-			<Beauty>-20</Beauty>
-			<ShootingAccuracyTurret>0.91</ShootingAccuracyTurret>
-		</statBases>
-		<tickerType>Normal</tickerType>
-		<comps Inherit="False">
-			<li Class="CompProperties_Explosive">
-				<explosiveRadius>5</explosiveRadius>
-				<explosiveDamageType>Flame</explosiveDamageType>
-				<chanceNeverExplodeFromDamage>0.5</chanceNeverExplodeFromDamage>
-			</li>
-			<li Class="CompProperties_Forbiddable"/>
-			<li Class="CompProperties_Power">
-				<compClass>CompPowerTrader</compClass>
-				<basePowerConsumption>500</basePowerConsumption>
-			</li>
-			<li Class="CompProperties_Flickable"/>
-			<li Class="CompProperties_Breakdownable"/>
-		</comps>
-		<description>A turret with a heavy Novagun on top that automatically fires at nearby and distant enemies. Has a chance to explode in an inferno when damaged.\n\nEvolved defense building, primarily made to slow down any incoming offenses with its reactive orbs. The fireline Novagun is guided by an AI Smartfire upgrade and scans the surrounding area for thermal signatures and movement. The central weapon system is mounted on an auto turret. The case can be slightly improved.</description>
-		<passability>PassThroughOnly</passability>
-		<fillPercent>0.85</fillPercent>
-		<hasTooltip>true</hasTooltip>
-		<thingCategories>
-			<li>BuildingsSecurity</li>
-		</thingCategories>
-		<stuffCategories Inherit="true">
-			<li>Metallic</li>
-		</stuffCategories>
-		<costStuffCount>250</costStuffCount>
-		<costList>
-			<Plasteel>150</Plasteel>
-			<ComponentIndustrial>4</ComponentIndustrial>
-			<ComponentSpacer>1</ComponentSpacer>
-			<Uranium>50</Uranium>
-			<AIPersonaCore>1</AIPersonaCore>
-		</costList>
-		<constructionSkillPrerequisite>20</constructionSkillPrerequisite>
-		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
-		<designationCategory>Security</designationCategory>
-		<designationHotKey>Misc5</designationHotKey>
-		<specialDisplayRadius>56</specialDisplayRadius>
-		<stealable>false</stealable>
-		<rotatable>true</rotatable>
-		<building>
-			<ai_combatDangerous>true</ai_combatDangerous>
-			<turretGunDef>Gun_MechanoidDevastatorTurret</turretGunDef>
-			<turretBurstCooldownTime>5</turretBurstCooldownTime>
-			<turretTopGraphicPath>Things/Building/Security/MechanoidDevastatorGun</turretTopGraphicPath>
-			<turretTopOffset>(0, 0.05)</turretTopOffset>
-		</building>
-		<placeWorkers>
-			<li>PlaceWorker_TurretTop</li>
-		</placeWorkers>
-		<researchPrerequisites>
-			<li>MPC_MechanoidBlaster</li>
-		</researchPrerequisites>
-		<uiIconScale>0.90</uiIconScale>
-	</ThingDef>
-	
-	<ThingDef ParentName="BaseBullet">
-		<defName>Bullet_MechanoidDevastatorTurret</defName>
-		<label>Blizzard Shards</label>
-		<graphicData>
-			<texPath>Things/Projectile/PhaserShot</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>TransparentPostLight</shaderType>
-		</graphicData>
-		<thingClass>Projectile_Explosive</thingClass>
-		<projectile>
-			<damageDef>Mech_Icecloud</damageDef> <!-- Frostbite -->
-			<damageAmountBase>8</damageAmountBase> <!-- 11 -->
-			<speed>95</speed>
-			<explosionRadius>2</explosionRadius>
-			<preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
-			<preExplosionSpawnChance>0.12</preExplosionSpawnChance>
-			<explosionDelay>1</explosionDelay>
-			<ai_IsIncendiary>true</ai_IsIncendiary>
-			<stoppingPower>3</stoppingPower>
-			<soundExplode>MechanoidWhiz</soundExplode>
-		</projectile>
-	</ThingDef>
-
-	<ThingDef ParentName="BaseHumanGun">
-		<defName>Gun_MechanoidDevastatorTurret</defName>
-		<label>Mechanoid Devastator</label>
-		<menuHidden>true</menuHidden>
-		<description>Evolved defense building, primarily made to slow down any incoming offenses with its reactive orbs. The fireline Novagun is guided by an AI Smartfire upgrade and scans the surrounding area for thermal signatures and movement. The central weapon system is mounted on an auto turret.</description>
-		<graphicData>
-			<texPath>Things/Weapons/Trunken_Rifle</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<soundInteract>Interact_Rifle</soundInteract>
-		<tradeability>None</tradeability>
-		<destroyOnDrop>true</destroyOnDrop>
-		<statBases>
-			<AccuracyTouch>0.90</AccuracyTouch>
-			<AccuracyShort>0.91</AccuracyShort>
-			<AccuracyMedium>0.92</AccuracyMedium>
-			<AccuracyLong>0.91</AccuracyLong>
-			<RangedWeapon_Cooldown>3</RangedWeapon_Cooldown>
-			<DeteriorationRate>0</DeteriorationRate>
-			<Mass>50</Mass>
-			<Flammability>0</Flammability>
-		</statBases>
-		<weaponTags>
-			<li>TurretGun</li>
-		</weaponTags>
-		<verbs>
-			<li>
-				<verbClass>Verb_Shoot</verbClass>
-				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>Bullet_MechanoidDevastatorTurret</defaultProjectile>
-				<warmupTime>1.8</warmupTime>
-				<range>52.4</range>
-				<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
-				<burstShotCount>4</burstShotCount>
-				<soundCast>MechanoidBlizzard</soundCast>
-				<soundCastTail>MechanoidThermal</soundCastTail>
-				<muzzleFlashScale>9</muzzleFlashScale>
-				<minRange>1.5</minRange>
-				<forcedMissRadius>0.07</forcedMissRadius>
-				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
-			</li>
-		</verbs>
-	</ThingDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName>MPC_MechanoidDevastatorTurret</defName>
+    <label>Mechanoid Devastator</label>
+    <thingClass>Building_TurretGun</thingClass>
+    <graphicData>
+      <texPath>Things/Building/Security/MechanoidZoneTurretBase</texPath>
+      <shaderType>CutoutComplex</shaderType>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,2)</drawSize>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+    <castEdgeShadows>true</castEdgeShadows>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <uiIconPath>Things/Building/Security/MechanoidDevastatorGun</uiIconPath>
+    <altitudeLayer>BuildingOnTop</altitudeLayer>
+    <pathCost>70</pathCost>
+    <statBases>
+      <MaxHitPoints>800</MaxHitPoints>
+      <Flammability>0.35</Flammability>
+      <WorkToBuild>5600</WorkToBuild>
+      <Mass>150</Mass>
+      <Beauty>-20</Beauty>
+      <ShootingAccuracyTurret>0.91</ShootingAccuracyTurret>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <comps Inherit="False">
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>5</explosiveRadius>
+        <explosiveDamageType>Flame</explosiveDamageType>
+        <chanceNeverExplodeFromDamage>0.5</chanceNeverExplodeFromDamage>
+      </li>
+      <li Class="CompProperties_Forbiddable" />
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>500</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Breakdownable" />
+    </comps>
+    <description>A turret with a heavy Novagun on top that automatically fires at nearby and distant enemies. Has a chance to explode in an inferno when damaged.\n\nEvolved defense building, primarily made to slow down any incoming offenses with its reactive orbs. The fireline Novagun is guided by an AI Smartfire upgrade and scans the surrounding area for thermal signatures and movement. The central weapon system is mounted on an auto turret. The case can be slightly improved.</description>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.85</fillPercent>
+    <hasTooltip>true</hasTooltip>
+    <thingCategories>
+      <li>BuildingsSecurity</li>
+    </thingCategories>
+    <stuffCategories Inherit="true">
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>250</costStuffCount>
+    <costList>
+      <Plasteel>150</Plasteel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+      <ComponentSpacer>1</ComponentSpacer>
+      <Uranium>50</Uranium>
+      <AIPersonaCore>1</AIPersonaCore>
+    </costList>
+    <constructionSkillPrerequisite>20</constructionSkillPrerequisite>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <designationCategory>Security</designationCategory>
+    <designationHotKey>Misc5</designationHotKey>
+    <specialDisplayRadius>56</specialDisplayRadius>
+    <stealable>false</stealable>
+    <rotatable>true</rotatable>
+    <building>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <turretGunDef>Gun_MechanoidDevastatorTurret</turretGunDef>
+      <turretBurstCooldownTime>5</turretBurstCooldownTime>
+      <turretTopGraphicPath>Things/Building/Security/MechanoidDevastatorGun</turretTopGraphicPath>
+      <turretTopOffset>(0, 0.05)</turretTopOffset>
+    </building>
+    <placeWorkers>
+      <li>PlaceWorker_TurretTop</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>MPC_MechanoidBlaster</li>
+    </researchPrerequisites>
+    <uiIconScale>0.90</uiIconScale>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_MechanoidDevastatorTurret</defName>
+    <label>Blizzard Shards</label>
+    <graphicData>
+      <texPath>Things/Projectile/PhaserShot</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <damageDef>Mech_Icecloud</damageDef>
+      <!-- Frostbite -->
+      <damageAmountBase>8</damageAmountBase>
+      <!-- 11 -->
+      <speed>95</speed>
+      <explosionRadius>2</explosionRadius>
+      <preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+      <preExplosionSpawnChance>0.12</preExplosionSpawnChance>
+      <explosionDelay>1</explosionDelay>
+      <ai_IsIncendiary>true</ai_IsIncendiary>
+      <stoppingPower>3</stoppingPower>
+      <soundExplode>MechanoidWhiz</soundExplode>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseHumanGun">
+    <defName>Gun_MechanoidDevastatorTurret</defName>
+    <label>Mechanoid Devastator</label>
+    <menuHidden>true</menuHidden>
+    <description>Evolved defense building, primarily made to slow down any incoming offenses with its reactive orbs. The fireline Novagun is guided by an AI Smartfire upgrade and scans the surrounding area for thermal signatures and movement. The central weapon system is mounted on an auto turret.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Trunken_Rifle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <tradeability>None</tradeability>
+    <destroyOnDrop>true</destroyOnDrop>
+    <statBases>
+      <AccuracyTouch>0.90</AccuracyTouch>
+      <AccuracyShort>0.91</AccuracyShort>
+      <AccuracyMedium>0.92</AccuracyMedium>
+      <AccuracyLong>0.91</AccuracyLong>
+      <RangedWeapon_Cooldown>3</RangedWeapon_Cooldown>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Mass>50</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <weaponTags>
+      <li>TurretGun</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_MechanoidDevastatorTurret</defaultProjectile>
+        <warmupTime>1.8</warmupTime>
+        <range>52.4</range>
+        <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+        <burstShotCount>4</burstShotCount>
+        <soundCast>MechanoidBlizzard</soundCast>
+        <soundCastTail>MechanoidThermal</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <minRange>1.5</minRange>
+        <forcedMissRadius>0.07</forcedMissRadius>
+        <ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+      </li>
+    </verbs>
+  </ThingDef>
 </Defs>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MPC_MechanoidShockwaveTurret.label>Mechanoid Coil</MPC_MechanoidShockwaveTurret.label>
+  <MPC_MechanoidShockwaveTurret.description>A turret with a shockwave gun on top that automatically fires at nearby and distant enemies. Meant to support during heavy warfare. Has a chance to explode in an EMP impulse when damaged.\n\nEvolved defense building, primarily made to support against incoming ground units. Outsorted models were taken out and misused to beat down riots on Jailplanets. Has a Shockwave Gun with an AI target acquisition attached to it. The central weapon system is mounted on an auto turret. Can be slightly upgraded.</MPC_MechanoidShockwaveTurret.description>
+
+  <Bullet_MechanoidShockwaveTurret.label>Psi shockwave</Bullet_MechanoidShockwaveTurret.label>
+
+  <Gun_MechanoidShockwaveTurret.label>Mechanoid Shockwave</Gun_MechanoidShockwaveTurret.label>
+  <Gun_MechanoidShockwaveTurret.description>Evolved defense building, primarily made to support against incoming ground units. Outsorted models were taken out and misused to beat down riots on Jailplanets. Has a Shockwave Gun with an AI target acquisition attached to it. The central weapon system is mounted on an auto turret.</Gun_MechanoidShockwaveTurret.description>
+
+
+</LanguageData>

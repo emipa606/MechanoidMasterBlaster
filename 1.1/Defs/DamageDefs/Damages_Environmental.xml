@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-<!-- ==================== Laser ========================== -->
+  <!-- ==================== Laser ========================== -->
   <DamageDef ParentName="Bomb">
     <defName>Mech_Laser</defName>
     <label>concentrated energy</label>
@@ -27,7 +27,7 @@
     <soundExplosion>Explosion_Bomb</soundExplosion>
     <combatLogRules>Damage_Bomb</combatLogRules>
   </DamageDef>
-<!-- ==================== Devastator ========================== -->
+  <!-- ==================== Devastator ========================== -->
   <DamageDef>
     <defName>Mech_Icecloud</defName>
     <label>frostburn</label>
@@ -38,12 +38,13 @@
     <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
     <canUseDeflectMetalEffect>true</canUseDeflectMetalEffect>
   </DamageDef>
-<!-- ==================== Blaster ========================== -->
+  <!-- ==================== Blaster ========================== -->
   <DamageDef ParentName="Flame">
     <defName>Mech_Inferno</defName>
     <workerClass>DamageWorker_Flame</workerClass>
     <label>inferno</label>
-    <hasForcefulImpact>true</hasForcefulImpact> <!-- false -->
+    <hasForcefulImpact>true</hasForcefulImpact>
+    <!-- false -->
     <deathMessage>{0} has burned to death in an inferno.</deathMessage>
     <minDamageToFragment>10</minDamageToFragment>
     <defaultDamage>15</defaultDamage>
@@ -51,15 +52,14 @@
     <explosionHeatEnergyPerCell>10</explosionHeatEnergyPerCell>
     <explosionCellMote>Mote_BlastFlame</explosionCellMote>
     <explosionColorCenter>(1, 0.7, 0.7)</explosionColorCenter>
-	<explosionColorEdge>(1, 0.4, 0.5)</explosionColorEdge>
+    <explosionColorEdge>(1, 0.4, 0.5)</explosionColorEdge>
     <soundExplosion>Explosion_Flame</soundExplosion>
-	<canUseDeflectMetalEffect>true</canUseDeflectMetalEffect>
+    <canUseDeflectMetalEffect>true</canUseDeflectMetalEffect>
   </DamageDef>
-<!-- ==================== Multi Burst ========================== -->
+  <!-- ==================== Multi Burst ========================== -->
   <DamageDef ParentName="Arrow">
     <defName>Mech_Shredder</defName>
     <label>shredder</label>
     <deathMessage>{0} has been sieved through to death.</deathMessage>
   </DamageDef>
-  
 </Defs>

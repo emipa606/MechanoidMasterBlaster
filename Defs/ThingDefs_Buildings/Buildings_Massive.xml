@@ -1,164 +1,161 @@
-<?xml version="1.0" encoding="utf-8" ?>
-
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<ThingDef ParentName="BuildingBase">
-		<defName>MPC_MechanoidMultiTurret</defName>
-		<label>Mechanoid Multi Burst</label>
-		<thingClass>Building_TurretGun</thingClass>
-		<graphicData>
-			<texPath>Things/Building/Security/MechanoidLoseTurretBase</texPath>
-			<shaderType>CutoutComplex</shaderType>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(2,2)</drawSize>
-			<damageData>
-				<rect>(0.2,0.2,0.6,0.6)</rect>
-			</damageData>
-			<shadowData>
-				<volume>(1.5,0.35,1.4)</volume>
-				<offset>(0,0,-0.05)</offset>
-			</shadowData>
-		</graphicData>
-		<castEdgeShadows>true</castEdgeShadows>
-		<minifiedDef>MinifiedThing</minifiedDef>
-		<uiIconPath>Things/Building/Security/MechanoidMultiGun</uiIconPath>
-		<altitudeLayer>BuildingOnTop</altitudeLayer>
-		<pathCost>85</pathCost>
-		<statBases>
-			<MaxHitPoints>2000</MaxHitPoints>
-			<Flammability>0.35</Flammability>
-			<WorkToBuild>7500</WorkToBuild>
-			<Mass>300</Mass>
-			<Beauty>-20</Beauty>
-			<ShootingAccuracyTurret>0.95</ShootingAccuracyTurret>
-		</statBases>
-		<tickerType>Normal</tickerType>
-		<comps Inherit="False">
-			<li Class="CompProperties_Explosive">
-				<explosiveRadius>5</explosiveRadius>
-				<explosiveDamageType>Flame</explosiveDamageType>
-			</li>
-			<li Class="CompProperties_Forbiddable"/>
-			<li Class="CompProperties_Power">
-				<compClass>CompPowerTrader</compClass>
-				<basePowerConsumption>500</basePowerConsumption>
-			</li>
-			<li Class="CompProperties_Flickable"/>
-			<li Class="CompProperties_Breakdownable"/>
-			<li Class="CompProperties_Refuelable">
-				<fuelLabel>Shots until barrel change</fuelLabel>
-				<fuelGizmoLabel>Barrel durability</fuelGizmoLabel>
-				<fuelFilter>
-				  <thingDefs>
-					<li>Plasteel</li>
-				  </thingDefs>
-				</fuelFilter>
-				<fuelCapacity>30</fuelCapacity>
-				<initialFuelPercent>1</initialFuelPercent>
-				<autoRefuelPercent>0.75</autoRefuelPercent>
-				<showFuelGizmo>true</showFuelGizmo>
-				<minimumFueledThreshold>1</minimumFueledThreshold>
-				<fuelMultiplier>0.75</fuelMultiplier>
-				<factorByDifficulty>true</factorByDifficulty>
-				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
-				<outOfFuelMessage>Cannot shoot: Needs new barrel</outOfFuelMessage>
-				<fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
-			</li>
-		</comps>
-		<description>A tank turret with a Quadgun on top that automatically fires at nearby and distant enemies. Has a chance to explode in an inferno when damaged.\n\nNeeds Plasteel to repair.\n\nEvolved defense building, primarily made to sieve through approaching combat forces with its superior firepower. Has high velocity fastcharger guns with an adaptive AI target system attached to it. The central weapon system is mounted on an auto turret. Can be upgraded.</description>
-		<passability>PassThroughOnly</passability>
-		<fillPercent>0.85</fillPercent>
-		<hasTooltip>true</hasTooltip>
-		<thingCategories>
-			<li>BuildingsSecurity</li>
-		</thingCategories>
-		<stuffCategories Inherit="true">
-			<li>Metallic</li>
-		</stuffCategories>
-		<costStuffCount>225</costStuffCount>
-		<costList>
-			<Plasteel>225</Plasteel>
-			<ComponentIndustrial>4</ComponentIndustrial>
-			<ComponentSpacer>1</ComponentSpacer>
-			<AIPersonaCore>1</AIPersonaCore>
-		</costList>
-		<constructionSkillPrerequisite>18</constructionSkillPrerequisite>
-		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
-		<designationCategory>Security</designationCategory>
-		<designationHotKey>Misc5</designationHotKey>
-		<specialDisplayRadius>56</specialDisplayRadius>
-		<stealable>false</stealable>
-		<rotatable>true</rotatable>
-		<building>
-			<ai_combatDangerous>true</ai_combatDangerous>
-			<turretGunDef>Gun_MechanoidMultiTurret</turretGunDef>
-			<turretBurstCooldownTime>10.2</turretBurstCooldownTime>
-			<turretTopGraphicPath>Things/Building/Security/MechanoidMultiGun</turretTopGraphicPath>
-			<turretTopOffset>(0, 0.15)</turretTopOffset>
-		</building>
-		<placeWorkers>
-			<li>PlaceWorker_TurretTop</li>
-		</placeWorkers>
-		<researchPrerequisites>
-			<li>MPC_MechanoidBlaster</li>
-		</researchPrerequisites>
-		<uiIconScale>0.90</uiIconScale>
-	</ThingDef>
-	
-	<ThingDef ParentName="BaseBullet">
-		<defName>Bullet_MechanoidMultiTurret</defName>
-		<label>High Velocity Charge</label>
-		<graphicData>
-			<texPath>Things/Projectile/InfernoCannonShot</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(0.5,2)</drawSize>
-		</graphicData>
-		<projectile>
-			<damageDef>Mech_Shredder</damageDef>
-			<damageAmountBase>7</damageAmountBase>
-			<speed>95</speed>
-			<stoppingPower>0.05</stoppingPower>
-		</projectile>
-	</ThingDef>
-
-	<ThingDef ParentName="BaseHumanGun">
-		<defName>Gun_MechanoidMultiTurret</defName>
-		<label>Mechanoid Multi Burst</label>
-		<menuHidden>true</menuHidden>
-		<description>Evolved defense building, primarily made to sieve through approaching combat forces with its superior firepower. Has high velocity fastcharger guns with an adaptive AI target system attached to it. The central weapon system is mounted on an auto turret.</description>
-		<graphicData>
-			<texPath>Things/Weapons/Trunken_Rifle</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<soundInteract>Interact_Rifle</soundInteract>
-		<tradeability>None</tradeability>
-		<destroyOnDrop>true</destroyOnDrop>
-		<statBases>
-			<AccuracyTouch>0.98</AccuracyTouch>
-			<AccuracyShort>0.99</AccuracyShort>
-			<AccuracyMedium>0.89</AccuracyMedium>
-			<AccuracyLong>0.88</AccuracyLong>
-			<RangedWeapon_Cooldown>0.9</RangedWeapon_Cooldown>
-			<DeteriorationRate>0</DeteriorationRate>
-			<Mass>100</Mass>
-			<Flammability>0</Flammability>
-		</statBases>
-		<weaponTags>
-			<li>TurretGun</li>
-		</weaponTags>
-		<verbs>
-			<li>
-				<verbClass>Verb_Shoot</verbClass>
-				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>Bullet_MechanoidMultiTurret</defaultProjectile>
-				<warmupTime>1.6</warmupTime>
-				<range>52.4</range>
-				<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
-				<burstShotCount>40</burstShotCount>
-				<soundCast>MechanoidPhaserBeam</soundCast>
-				<soundCastTail>MechanoidShredder</soundCastTail>
-				<muzzleFlashScale>9</muzzleFlashScale>
-				<minRange>1.5</minRange>
-			</li>
-		</verbs>
-	</ThingDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName>MPC_MechanoidMultiTurret</defName>
+    <label>Mechanoid Multi Burst</label>
+    <thingClass>Building_TurretGun</thingClass>
+    <graphicData>
+      <texPath>Things/Building/Security/MechanoidLoseTurretBase</texPath>
+      <shaderType>CutoutComplex</shaderType>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,2)</drawSize>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+      <shadowData>
+        <volume>(1.5,0.35,1.4)</volume>
+        <offset>(0,0,-0.05)</offset>
+      </shadowData>
+    </graphicData>
+    <castEdgeShadows>true</castEdgeShadows>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <uiIconPath>Things/Building/Security/MechanoidMultiGun</uiIconPath>
+    <altitudeLayer>BuildingOnTop</altitudeLayer>
+    <pathCost>85</pathCost>
+    <statBases>
+      <MaxHitPoints>2000</MaxHitPoints>
+      <Flammability>0.35</Flammability>
+      <WorkToBuild>7500</WorkToBuild>
+      <Mass>300</Mass>
+      <Beauty>-20</Beauty>
+      <ShootingAccuracyTurret>0.95</ShootingAccuracyTurret>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <comps Inherit="False">
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>5</explosiveRadius>
+        <explosiveDamageType>Flame</explosiveDamageType>
+      </li>
+      <li Class="CompProperties_Forbiddable" />
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>500</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Breakdownable" />
+      <li Class="CompProperties_Refuelable">
+        <fuelLabel>Shots until barrel change</fuelLabel>
+        <fuelGizmoLabel>Barrel durability</fuelGizmoLabel>
+        <fuelFilter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </fuelFilter>
+        <fuelCapacity>30</fuelCapacity>
+        <initialFuelPercent>1</initialFuelPercent>
+        <autoRefuelPercent>0.75</autoRefuelPercent>
+        <showFuelGizmo>true</showFuelGizmo>
+        <minimumFueledThreshold>1</minimumFueledThreshold>
+        <fuelMultiplier>0.75</fuelMultiplier>
+        <factorByDifficulty>true</factorByDifficulty>
+        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+        <outOfFuelMessage>Cannot shoot: Needs new barrel</outOfFuelMessage>
+        <fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
+      </li>
+    </comps>
+    <description>A tank turret with a Quadgun on top that automatically fires at nearby and distant enemies. Has a chance to explode in an inferno when damaged.\n\nNeeds Plasteel to repair.\n\nEvolved defense building, primarily made to sieve through approaching combat forces with its superior firepower. Has high velocity fastcharger guns with an adaptive AI target system attached to it. The central weapon system is mounted on an auto turret. Can be upgraded.</description>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.85</fillPercent>
+    <hasTooltip>true</hasTooltip>
+    <thingCategories>
+      <li>BuildingsSecurity</li>
+    </thingCategories>
+    <stuffCategories Inherit="true">
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>225</costStuffCount>
+    <costList>
+      <Plasteel>225</Plasteel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+      <ComponentSpacer>1</ComponentSpacer>
+      <AIPersonaCore>1</AIPersonaCore>
+    </costList>
+    <constructionSkillPrerequisite>18</constructionSkillPrerequisite>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <designationCategory>Security</designationCategory>
+    <designationHotKey>Misc5</designationHotKey>
+    <specialDisplayRadius>56</specialDisplayRadius>
+    <stealable>false</stealable>
+    <rotatable>true</rotatable>
+    <building>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <turretGunDef>Gun_MechanoidMultiTurret</turretGunDef>
+      <turretBurstCooldownTime>10.2</turretBurstCooldownTime>
+      <turretTopGraphicPath>Things/Building/Security/MechanoidMultiGun</turretTopGraphicPath>
+      <turretTopOffset>(0, 0.15)</turretTopOffset>
+    </building>
+    <placeWorkers>
+      <li>PlaceWorker_TurretTop</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>MPC_MechanoidBlaster</li>
+    </researchPrerequisites>
+    <uiIconScale>0.90</uiIconScale>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_MechanoidMultiTurret</defName>
+    <label>High Velocity Charge</label>
+    <graphicData>
+      <texPath>Things/Projectile/InfernoCannonShot</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(0.5,2)</drawSize>
+    </graphicData>
+    <projectile>
+      <damageDef>Mech_Shredder</damageDef>
+      <damageAmountBase>7</damageAmountBase>
+      <speed>95</speed>
+      <stoppingPower>0.05</stoppingPower>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseHumanGun">
+    <defName>Gun_MechanoidMultiTurret</defName>
+    <label>Mechanoid Multi Burst</label>
+    <menuHidden>true</menuHidden>
+    <description>Evolved defense building, primarily made to sieve through approaching combat forces with its superior firepower. Has high velocity fastcharger guns with an adaptive AI target system attached to it. The central weapon system is mounted on an auto turret.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Trunken_Rifle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <tradeability>None</tradeability>
+    <destroyOnDrop>true</destroyOnDrop>
+    <statBases>
+      <AccuracyTouch>0.98</AccuracyTouch>
+      <AccuracyShort>0.99</AccuracyShort>
+      <AccuracyMedium>0.89</AccuracyMedium>
+      <AccuracyLong>0.88</AccuracyLong>
+      <RangedWeapon_Cooldown>0.9</RangedWeapon_Cooldown>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Mass>100</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <weaponTags>
+      <li>TurretGun</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_MechanoidMultiTurret</defaultProjectile>
+        <warmupTime>1.6</warmupTime>
+        <range>52.4</range>
+        <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+        <burstShotCount>40</burstShotCount>
+        <soundCast>MechanoidPhaserBeam</soundCast>
+        <soundCastTail>MechanoidShredder</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <minRange>1.5</minRange>
+      </li>
+    </verbs>
+  </ThingDef>
 </Defs>

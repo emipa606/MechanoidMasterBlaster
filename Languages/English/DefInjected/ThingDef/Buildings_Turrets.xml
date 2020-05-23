@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MPC_MechanoidLaserTurret.label>Mechanoid Laser</MPC_MechanoidLaserTurret.label>
+  <MPC_MechanoidLaserTurret.description>A turret with a mechanoid laser gun on top that automatically fires at nearby and distant enemies. Has a chance to explode in an EMP impulse when damaged.\n\nEvolved defense building, primarily made for stationary warfare against heavy ordinance - on planets of importance. Has a Laser Cannon with a long range target acquisition attached to it. The central weapon system is mounted on an auto turret. Relies on Mechanoid Technology. Can be upgraded.</MPC_MechanoidLaserTurret.description>
+
+  <Bullet_MechanoidLaserTurret.label>Powered nitro laser</Bullet_MechanoidLaserTurret.label>
+
+  <Gun_MechanoidLaserTurret.label>Mechanoid Laser</Gun_MechanoidLaserTurret.label>
+  <Gun_MechanoidLaserTurret.description>Evolved defense building, primarily made for stationary warfare against heavy ordinance - on planets of importance. Has a Laser Cannon with a long range target acquisition attached to it. The central weapon system is mounted on an auto turret. Relies on Mechanoid Technology.</Gun_MechanoidLaserTurret.description>
+
+
+</LanguageData>
