@@ -116,6 +116,21 @@
       <stoppingPower>0.05</stoppingPower>
     </projectile>
   </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_MechanoidMultiTurretEnhanced</defName>
+    <label>High Velocity Charge Enhanced</label>
+    <graphicData>
+      <texPath>Things/Projectile/LauncherShot</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(0.5,2)</drawSize>
+    </graphicData>
+    <projectile>
+      <damageDef>Mech_Shredder</damageDef>
+      <damageAmountBase>8</damageAmountBase>
+      <speed>95</speed>
+      <stoppingPower>0.07</stoppingPower>
+    </projectile>
+  </ThingDef>
   <ThingDef ParentName="BaseWeapon">
     <defName>Gun_MechanoidMultiTurret</defName>
     <label>Mechanoid Multi Burst</label>
@@ -148,6 +163,47 @@
         <defaultProjectile>Bullet_MechanoidMultiTurret</defaultProjectile>
         <warmupTime>1.6</warmupTime>
         <range>52.4</range>
+        <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+        <burstShotCount>40</burstShotCount>
+        <soundCast>MechanoidPhaserBeam</soundCast>
+        <soundCastTail>MechanoidShredder</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <minRange>1.5</minRange>
+      </li>
+    </verbs>
+  </ThingDef>
+  <ThingDef ParentName="BaseWeapon">
+    <defName>Gun_MechanoidMultiTurretEnhanced</defName>
+    <label>Mechanoid Multi Burst Enhanced</label>
+    <menuHidden>true</menuHidden>
+    <description>Evolved defense building, primarily made to sieve through approaching combat forces with its superior firepower. Has high velocity fastcharger guns with an adaptive AI target system attached to it. The central weapon system is mounted on an auto turret. Upgraded.</description>
+    <graphicData>
+      <texPath>Things/Building/Security/MechanoidMultiGun_11Enhanced</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <tradeability>None</tradeability>
+    <destroyOnDrop>true</destroyOnDrop>
+    <statBases>
+      <AccuracyTouch>0.99</AccuracyTouch>
+      <AccuracyShort>0.99</AccuracyShort>
+      <AccuracyMedium>0.92</AccuracyMedium>
+      <AccuracyLong>0.91</AccuracyLong>
+      <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Mass>100</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <weaponTags>
+      <li>TurretGun</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_MechanoidMultiTurretEnhanced</defaultProjectile>
+        <warmupTime>1.5</warmupTime>
+        <range>62.4</range>
         <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
         <burstShotCount>40</burstShotCount>
         <soundCast>MechanoidPhaserBeam</soundCast>

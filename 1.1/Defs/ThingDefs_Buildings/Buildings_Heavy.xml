@@ -104,6 +104,30 @@
       <soundExplode>MechanoidWhiz</soundExplode>
     </projectile>
   </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_MechanoidDevastatorTurretEnhanced</defName>
+    <label>Blizzard Shards Enhanced</label>
+    <graphicData>
+      <texPath>Things/Projectile/PhaserShot</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <damageDef>Mech_Icecloud</damageDef>
+      <!-- Frostbite -->
+      <damageAmountBase>9</damageAmountBase>
+      <!-- 11 -->
+      <speed>95</speed>
+      <explosionRadius>2</explosionRadius>
+      <preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+      <preExplosionSpawnChance>0.12</preExplosionSpawnChance>
+      <explosionDelay>1</explosionDelay>
+      <ai_IsIncendiary>true</ai_IsIncendiary>
+      <stoppingPower>3.5</stoppingPower>
+      <soundExplode>MechanoidWhiz</soundExplode>
+    </projectile>
+  </ThingDef>
   <ThingDef ParentName="BaseWeapon">
     <defName>Gun_MechanoidDevastatorTurret</defName>
     <label>Mechanoid Devastator</label>
@@ -136,6 +160,49 @@
         <defaultProjectile>Bullet_MechanoidDevastatorTurret</defaultProjectile>
         <warmupTime>1.8</warmupTime>
         <range>52.4</range>
+        <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+        <burstShotCount>4</burstShotCount>
+        <soundCast>MechanoidBlizzard</soundCast>
+        <soundCastTail>MechanoidThermal</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <minRange>1.5</minRange>
+        <forcedMissRadius>0.07</forcedMissRadius>
+        <ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+      </li>
+    </verbs>
+  </ThingDef>
+  <ThingDef ParentName="BaseWeapon">
+    <defName>Gun_MechanoidDevastatorTurretEnhanced</defName>
+    <label>Mechanoid Devastator Enhanced</label>
+    <menuHidden>true</menuHidden>
+    <description>Evolved defense building, primarily made to slow down any incoming offenses with its reactive orbs. The fireline Novagun is guided by an AI Smartfire upgrade and scans the surrounding area for thermal signatures and movement. The central weapon system is mounted on an auto turret. Upgraded.</description>
+    <graphicData>
+      <texPath>Things/Building/Security/MechanoidDevastatorGun_11Enhanced</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <tradeability>None</tradeability>
+    <destroyOnDrop>true</destroyOnDrop>
+    <statBases>
+      <AccuracyTouch>0.94</AccuracyTouch>
+      <AccuracyShort>0.96</AccuracyShort>
+      <AccuracyMedium>0.98</AccuracyMedium>
+      <AccuracyLong>0.97</AccuracyLong>
+      <RangedWeapon_Cooldown>2.6</RangedWeapon_Cooldown>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Mass>50</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <weaponTags>
+      <li>TurretGun</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_MechanoidDevastatorTurretEnhanced</defaultProjectile>
+        <warmupTime>1.6</warmupTime>
+        <range>62.4</range>
         <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
         <burstShotCount>4</burstShotCount>
         <soundCast>MechanoidBlizzard</soundCast>

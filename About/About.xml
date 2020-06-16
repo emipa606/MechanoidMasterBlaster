@@ -18,6 +18,8 @@
   </modDependencies>
   <loadAfter>
     <li>brrainz.harmony</li>
+    <li>CETeam.CombatExtended</li>
+    <li>XeoNovaDan.TurretExtensions</li>
   </loadAfter>
   <description>Update of Trunkens mod for RimWorld 1.1
 https://steamcommunity.com/sharedfiles/filedetails/?id=1731170217

@@ -114,6 +114,22 @@
       <speed>70</speed>
     </projectile>
   </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_MechanoidTrinityTurretEnhanced</defName>
+    <label>Magnum Breaker Enhanced</label>
+    <graphicData>
+      <texPath>Things/Projectile/BulletTrinity</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>23</damageAmountBase>
+      <stoppingPower>0.002</stoppingPower>
+      <armorPenetrationBase>0.2</armorPenetrationBase>
+      <speed>70</speed>
+    </projectile>
+  </ThingDef>
   <ThingDef ParentName="BaseWeapon">
     <defName>Gun_MechanoidTrinityTurret</defName>
     <label>Mechanoid Trinity</label>
@@ -146,6 +162,48 @@
         <defaultProjectile>Bullet_MechanoidTrinityTurret</defaultProjectile>
         <warmupTime>1.2</warmupTime>
         <range>52.4</range>
+        <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
+        <burstShotCount>60</burstShotCount>
+        <soundCast>Shot_Minigun</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>2</muzzleFlashScale>
+        <minRange>1.5</minRange>
+        <ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+      </li>
+    </verbs>
+  </ThingDef>
+  <ThingDef ParentName="BaseWeapon">
+    <defName>Gun_MechanoidTrinityEnhanced</defName>
+    <label>Mechanoid Trinity Enhanced</label>
+    <menuHidden>true</menuHidden>
+    <description>Evolved defense building with an unbelievable firerate and low accuracy, designed to maw down anything entering its security zone. Has a Trinity Gun, which is fed by 4 large ammunition containers with magnum breaker cartridges inside. The central weapon system is mounted on an auto turret. Needs steel to renew the barrels after heave use. Upgraded.</description>
+    <graphicData>
+      <texPath>Things/Building/Security/MechanoidTrinityGun_11Enhanced</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <tradeability>None</tradeability>
+    <destroyOnDrop>true</destroyOnDrop>
+    <statBases>
+      <AccuracyTouch>0.65</AccuracyTouch>
+      <AccuracyShort>0.55</AccuracyShort>
+      <AccuracyMedium>0.55</AccuracyMedium>
+      <AccuracyLong>0.48</AccuracyLong>
+      <RangedWeapon_Cooldown>1.6</RangedWeapon_Cooldown>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Mass>30</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <weaponTags>
+      <li>TurretGun</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_MechanoidTrinityTurretEnhanced</defaultProjectile>
+        <warmupTime>1.1</warmupTime>
+        <range>62.4</range>
         <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
         <burstShotCount>60</burstShotCount>
         <soundCast>Shot_Minigun</soundCast>

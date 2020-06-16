@@ -104,6 +104,29 @@
       <soundExplode>MortarBomb_Explode</soundExplode>
     </projectile>
   </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_MechanoidShockwaveTurretEnhanced</defName>
+    <label>Psi shockwave enhanced</label>
+    <graphicData>
+      <texPath>Things/Projectile/BlasterShot</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <damageDef>Stun</damageDef>
+      <!-- Mech_Shockwave -->
+      <damageAmountBase>8</damageAmountBase>
+      <speed>150</speed>
+      <explosionRadius>3.5</explosionRadius>
+      <preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+      <preExplosionSpawnChance>0.07</preExplosionSpawnChance>
+      <explosionDelay>1</explosionDelay>
+      <ai_IsIncendiary>true</ai_IsIncendiary>
+      <stoppingPower>0.2</stoppingPower>
+      <soundExplode>MortarBomb_Explode</soundExplode>
+    </projectile>
+  </ThingDef>
   <ThingDef ParentName="BaseWeapon">
     <defName>Gun_MechanoidShockwaveTurret</defName>
     <label>Mechanoid Shockwave</label>
@@ -136,6 +159,49 @@
         <defaultProjectile>Bullet_MechanoidShockwaveTurret</defaultProjectile>
         <warmupTime>1.5</warmupTime>
         <range>52.4</range>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <burstShotCount>1</burstShotCount>
+        <soundCast>MechanoidEnergizedShot</soundCast>
+        <soundCastTail>MechanoidFlashLight</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <forcedMissRadius>1</forcedMissRadius>
+        <minRange>1.5</minRange>
+        <ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+      </li>
+    </verbs>
+  </ThingDef>
+  <ThingDef ParentName="BaseWeapon">
+    <defName>Gun_MechanoidShockwaveTurretEnhanced</defName>
+    <label>Mechanoid Shockwave Enhanced</label>
+    <menuHidden>true</menuHidden>
+    <description>Evolved defense building, primarily made to support against incoming ground units. Outsorted models were taken out and misused to beat down riots on Jailplanets. Has a Shockwave Gun with an AI target acquisition attached to it. The central weapon system is mounted on an auto turret. Upgraded.</description>
+    <graphicData>
+      <texPath>Things/Building/Security/MechanoidShockwaveGun_11</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <tradeability>None</tradeability>
+    <destroyOnDrop>true</destroyOnDrop>
+    <statBases>
+      <AccuracyTouch>0.90</AccuracyTouch>
+      <AccuracyShort>0.91</AccuracyShort>
+      <AccuracyMedium>0.99</AccuracyMedium>
+      <AccuracyLong>0.99</AccuracyLong>
+      <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Mass>50</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <weaponTags>
+      <li>TurretGun</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_MechanoidShockwaveTurretEnhanced</defaultProjectile>
+        <warmupTime>1.4</warmupTime>
+        <range>62.4</range>
         <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
         <burstShotCount>1</burstShotCount>
         <soundCast>MechanoidEnergizedShot</soundCast>

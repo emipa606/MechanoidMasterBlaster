@@ -1102,7 +1102,8 @@
               <statOffsets>
                 <ShootingAccuracyTurret>0.01</ShootingAccuracyTurret>
               </statOffsets>
-              <turretTopGraphicPath>Things/Building/Security/MechanoidBlasterGunEnhanced</turretTopGraphicPath>
+              <!-- <turretTopGraphicPath>Things/Building/Security/MechanoidBlasterGunEnhanced</turretTopGraphicPath> -->
+              <turretGunDef>Gun_MechanoidBlasterTurretEnhanced</turretGunDef>
               <turretTopOffset>(0, 0.1)</turretTopOffset>
               <basePowerConsumptionFactor>1.5</basePowerConsumptionFactor>
               <canForceAttack>true</canForceAttack>
@@ -1146,7 +1147,8 @@
               <statOffsets>
                 <ShootingAccuracyTurret>0.02</ShootingAccuracyTurret>
               </statOffsets>
-              <turretTopGraphicPath>Things/Building/Security/MechanoidLaserGunEnhanced</turretTopGraphicPath>
+              <!-- <turretTopGraphicPath>Things/Building/Security/MechanoidLaserGunEnhanced</turretTopGraphicPath> -->
+              <turretGunDef>Gun_MechanoidLaserTurretEnhanced</turretGunDef>
               <turretTopOffset>(0, 0.05)</turretTopOffset>
               <basePowerConsumptionFactor>1.5</basePowerConsumptionFactor>
               <canForceAttack>true</canForceAttack>
@@ -1200,6 +1202,7 @@
                 <ShootingAccuracyTurret>0.05</ShootingAccuracyTurret>
               </statOffsets>
               <!-- <turretTopGraphicPath>Things/Building/Security/MechanoidShockwaveGunEnhanced</turretTopGraphicPath> -->
+              <turretGunDef>Gun_MechanoidShockwaveTurretEnhanced</turretGunDef>
               <turretTopOffset>(0, 0)</turretTopOffset>
               <basePowerConsumptionFactor>1.5</basePowerConsumptionFactor>
               <turretBurstWarmupTimeFactor>0.9</turretBurstWarmupTimeFactor>
@@ -1242,7 +1245,8 @@
               <statFactors>
                 <MaxHitPoints>1.25</MaxHitPoints>
               </statFactors>
-              <turretTopGraphicPath>Things/Building/Security/MechanoidDevastatorGunEnhanced</turretTopGraphicPath>
+              <!-- <turretTopGraphicPath>Things/Building/Security/MechanoidDevastatorGunEnhanced</turretTopGraphicPath> -->
+              <turretGunDef>Gun_MechanoidDevastatorTurretEnhanced</turretGunDef>
               <turretTopOffset>(0, 0.05)</turretTopOffset>
               <basePowerConsumptionFactor>1.5</basePowerConsumptionFactor>
               <canForceAttack>true</canForceAttack>
@@ -1286,7 +1290,8 @@
               <statFactors>
                 <MaxHitPoints>1.5</MaxHitPoints>
               </statFactors>
-              <turretTopGraphicPath>Things/Building/Security/MechanoidMultiGunEnhanced</turretTopGraphicPath>
+              <!-- <turretTopGraphicPath>Things/Building/Security/MechanoidMultiGunEnhanced</turretTopGraphicPath> -->
+              <turretGunDef>Gun_MechanoidMultiTurretEnhanced</turretGunDef>
               <turretTopOffset>(0, 0.15)</turretTopOffset>
               <basePowerConsumptionFactor>1.5</basePowerConsumptionFactor>
               <canForceAttack>true</canForceAttack>
@@ -1334,7 +1339,8 @@
               <statFactors>
                 <MaxHitPoints>1.5</MaxHitPoints>
               </statFactors>
-              <turretTopGraphicPath>Things/Building/Security/MechanoidTrinityGunEnhanced</turretTopGraphicPath>
+              <!-- <turretTopGraphicPath>Things/Building/Security/MechanoidTrinityGunEnhanced</turretTopGraphicPath> -->
+              <turretGunDef>Gun_MechanoidTrinityEnhanced</turretGunDef>
               <turretTopOffset>(0, 0.01)</turretTopOffset>
               <basePowerConsumptionFactor>1.5</basePowerConsumptionFactor>
               <canForceAttack>true</canForceAttack>
@@ -1350,21 +1356,21 @@
     </match>
   </Operation>
   <!-- Trick Seventeen -->
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>[XND] Turret Extensions</li>
-    </mods>
-    <!-- No Upgrades found -->
-    <nomatch Class="PatchOperationSequence">
-      <success>Always</success>
-      <operations>
-        <li Class="PatchOperationReplace">
-          <xpath>/Defs/ThingDef[defName="MPC_MechanoidMultiTurret"]/building/turretTopGraphicPath</xpath>
-          <value>
-            <turretTopGraphicPath>Things/Building/Security/MechanoidMultiGunEnhanced</turretTopGraphicPath>
-          </value>
-        </li>
-      </operations>
-    </nomatch>
-  </Operation>
+  <!-- <Operation Class="PatchOperationFindMod"> -->
+  <!-- <mods> -->
+  <!-- <li>[XND] Turret Extensions</li> -->
+  <!-- </mods> -->
+  <!-- No Upgrades found -->
+  <!-- <nomatch Class="PatchOperationSequence"> -->
+  <!-- <success>Always</success> -->
+  <!-- <operations> -->
+  <!-- <li Class="PatchOperationReplace"> -->
+  <!-- <xpath>/Defs/ThingDef[defName="MPC_MechanoidMultiTurret"]/building/turretTopGraphicPath</xpath> -->
+  <!-- <value> -->
+  <!-- <turretTopGraphicPath>Things/Building/Security/MechanoidMultiGunEnhanced</turretTopGraphicPath> -->
+  <!-- </value> -->
+  <!-- </li> -->
+  <!-- </operations> -->
+  <!-- </nomatch> -->
+  <!-- </Operation> -->
 </Patch>

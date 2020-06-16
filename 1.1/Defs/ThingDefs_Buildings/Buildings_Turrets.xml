@@ -102,6 +102,29 @@
       <soundExplode>Interact_Ignite</soundExplode>
     </projectile>
   </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_MechanoidLaserTurretEnhanced</defName>
+    <label>Powered nitro laser enhanced</label>
+    <graphicData>
+      <texPath>Things/Projectile/LaserPulse</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <damageDef>Mech_Laser</damageDef>
+      <!-- Bomb -->
+      <damageAmountBase>30</damageAmountBase>
+      <speed>150</speed>
+      <explosionRadius>1.1</explosionRadius>
+      <preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+      <preExplosionSpawnChance>0.07</preExplosionSpawnChance>
+      <explosionDelay>2</explosionDelay>
+      <ai_IsIncendiary>true</ai_IsIncendiary>
+      <stoppingPower>0.2</stoppingPower>
+      <soundExplode>Interact_Ignite</soundExplode>
+    </projectile>
+  </ThingDef>
   <ThingDef ParentName="BaseWeapon">
     <defName>Gun_MechanoidLaserTurret</defName>
     <label>Mechanoid Laser</label>
@@ -134,6 +157,49 @@
         <defaultProjectile>Bullet_MechanoidLaserTurret</defaultProjectile>
         <warmupTime>1.5</warmupTime>
         <range>52.4</range>
+        <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
+        <burstShotCount>7</burstShotCount>
+        <soundCast>MechanoidLaserPulse</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <minRange>1.5</minRange>
+        <forcedMissRadius>0.05</forcedMissRadius>
+        <ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+      </li>
+    </verbs>
+  </ThingDef>
+  <ThingDef ParentName="BaseWeapon">
+    <defName>Gun_MechanoidLaserTurretEnhanced</defName>
+    <label>Mechanoid Laser Enhanced</label>
+    <menuHidden>true</menuHidden>
+    <description>Evolved defense building, primarily made for stationary warfare against heavy ordinance - on planets of importance. Has a Laser Cannon with a long range target acquisition attached to it. The central weapon system is mounted on an auto turret. Relies on Mechanoid Technology. Upgraded.</description>
+    <graphicData>
+      <texPath>Things/Building/Security/MechanoidLaserGun_11Enhanced</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <tradeability>None</tradeability>
+    <destroyOnDrop>true</destroyOnDrop>
+    <statBases>
+      <AccuracyTouch>0.98</AccuracyTouch>
+      <AccuracyShort>0.96</AccuracyShort>
+      <AccuracyMedium>0.94</AccuracyMedium>
+      <AccuracyLong>0.91</AccuracyLong>
+      <RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Mass>40</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <weaponTags>
+      <li>TurretGun</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_MechanoidLaserTurretEnhanced</defaultProjectile>
+        <warmupTime>1.4</warmupTime>
+        <range>62.4</range>
         <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
         <burstShotCount>7</burstShotCount>
         <soundCast>MechanoidLaserPulse</soundCast>
