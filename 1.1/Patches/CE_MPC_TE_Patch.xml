@@ -103,7 +103,7 @@
               <menuHidden>true</menuHidden>
               <description>Evolved defense building, primarily made for stationary warfare against xenomorphic insectoids and mechanoid swarms - on planets of importance. Has 4 Blaster Cannons with a long range target acquisition attached to it. The central weapon system is mounted on an auto turret of a sturdy nature. Relies on Mechanoid Technology.</description>
               <graphicData>
-                <texPath>Things/Weapons/Trunken_Rifle</texPath>
+                <texPath>Things/Building/Security/MechanoidTurretGun_11</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
               </graphicData>
               <soundInteract>Interact_Rifle</soundInteract>
@@ -264,7 +264,7 @@
               <menuHidden>true</menuHidden>
               <description>Evolved defense building, primarily made for stationary warfare against heavy ordinance - on planets of importance. Has a Laser Cannon with a long range target acquisition attached to it. The central weapon system is mounted on an auto turret. Relies on Mechanoid Technology.</description>
               <graphicData>
-                <texPath>Things/Weapons/Trunken_Rifle</texPath>
+                <texPath>Things/Building/Security/MechanoidLaserGun_11</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
               </graphicData>
               <soundInteract>Interact_Rifle</soundInteract>
@@ -316,6 +316,11 @@
                   <explosiveDamageType>Bomb</explosiveDamageType>
                   <explosiveRadius>2.5</explosiveRadius>
                   <explosionSound>Explosion_Stun</explosionSound>
+                </li>
+                <li Class="CombatExtended.CompProperties_AmmoUser">
+                  <magazineSize>100</magazineSize>
+                  <reloadTime>7.8</reloadTime>
+                  <ammoSet>AmmoSet_30x64mmFuel</ammoSet>
                 </li>
               </comps>
             </ThingDef>
@@ -428,7 +433,7 @@
               <menuHidden>true</menuHidden>
               <description>Evolved defense building, primarily made to support against incoming ground units. Outsorted models were alienated to beat down riots on Jailplanets. Has a Shockwave Gun with an AI target acquisition attached to it. The central weapon system is mounted on an auto turret.</description>
               <graphicData>
-                <texPath>Things/Weapons/Trunken_Rifle</texPath>
+                <texPath>Things/Building/Security/MechanoidShockwaveGun_11</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
               </graphicData>
               <soundInteract>Interact_Rifle</soundInteract>
@@ -476,6 +481,11 @@
                   <aimedBurstShotCount>1</aimedBurstShotCount>
                   <noSnapshot>true</noSnapshot>
                   <noSingleShot>true</noSingleShot>
+                </li>
+                <li Class="CombatExtended.CompProperties_AmmoUser">
+                  <magazineSize>100</magazineSize>
+                  <reloadTime>7.8</reloadTime>
+                  <ammoSet>AmmoSet_60x225mmGamma</ammoSet>
                 </li>
               </comps>
             </ThingDef>
@@ -587,7 +597,7 @@
               <menuHidden>true</menuHidden>
               <description>Evolved defense building, primarily made to slow down any incoming offenses with its reactive orbs. The fireline Novagun is guided by an AI Smartfire upgrade and scans the surrounding area for thermal signatures and movement. The central weapon system is mounted on an auto turret.</description>
               <graphicData>
-                <texPath>Things/Weapons/Trunken_Rifle</texPath>
+                <texPath>Things/Building/Security/MechanoidDevastatorGun_11</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
               </graphicData>
               <soundInteract>Interact_Rifle</soundInteract>
@@ -632,6 +642,11 @@
                   <aimedBurstShotCount>1</aimedBurstShotCount>
                   <noSnapshot>true</noSnapshot>
                   <noSingleShot>true</noSingleShot>
+                </li>
+                <li Class="CombatExtended.CompProperties_AmmoUser">
+                  <magazineSize>100</magazineSize>
+                  <reloadTime>7.8</reloadTime>
+                  <ammoSet>AmmoSet_8x35mmCharged</ammoSet>
                 </li>
               </comps>
             </ThingDef>
@@ -761,7 +776,7 @@
               <menuHidden>true</menuHidden>
               <description>Evolved defense building, primarily made to sieve through heavy combat forces. Has a Quad Gun with an AI target system attached to it. The central weapon system is mounted on an auto turret.</description>
               <graphicData>
-                <texPath>Things/Weapons/Trunken_Rifle</texPath>
+                <texPath>Things/Building/Security/MechanoidMultiGun_11</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
               </graphicData>
               <soundInteract>Interact_Rifle</soundInteract>
@@ -941,7 +956,7 @@
               <menuHidden>true</menuHidden>
               <description>Evolved defense building with an unbelievable firerate and low accuracy, designed to maw down anything entering its security zone. Has a Trinity Gun, which is fed by 4 large ammunition containers with magnum breaker cartridges inside. The central weapon system is mounted on an auto turret. Needs steel to renew the barrels after heave use. Can be upgraded.</description>
               <graphicData>
-                <texPath>Things/Weapons/Trunken_Rifle</texPath>
+                <texPath>Things/Building/Security/MechanoidTrinityGun_11</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
               </graphicData>
               <soundInteract>Interact_Rifle</soundInteract>
