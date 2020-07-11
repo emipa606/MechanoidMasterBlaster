@@ -707,25 +707,6 @@
                 </li>
                 <li Class="CompProperties_Flickable" />
                 <li Class="CompProperties_Breakdownable" />
-                <li Class="CompProperties_Refuelable">
-                  <fuelLabel>Shots until barrel change</fuelLabel>
-                  <fuelGizmoLabel>Barrel durability</fuelGizmoLabel>
-                  <fuelFilter>
-                    <thingDefs>
-                      <li>Plasteel</li>
-                    </thingDefs>
-                  </fuelFilter>
-                  <fuelCapacity>30</fuelCapacity>
-                  <initialFuelPercent>1</initialFuelPercent>
-                  <autoRefuelPercent>0.75</autoRefuelPercent>
-                  <showFuelGizmo>true</showFuelGizmo>
-                  <minimumFueledThreshold>1</minimumFueledThreshold>
-                  <fuelMultiplier>0.75</fuelMultiplier>
-                  <factorByDifficulty>true</factorByDifficulty>
-                  <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
-                  <outOfFuelMessage>Cannot shoot: Needs new barrel</outOfFuelMessage>
-                  <fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
-                </li>
               </comps>
               <description>A tank turret with a Quadgun on top that automatically fires at nearby and distant enemies. Has a chance to explode in an inferno when damaged.\n\nNeeds Plasteel to repair.\n\nEvolved defense building, primarily made to sieve through approaching combat forces with its superior firepower. Has high velocity fastcharger guns with an adaptive AI target system attached to it. The central weapon system is mounted on an auto turret. Can be upgraded.</description>
               <passability>PassThroughOnly</passability>
@@ -886,25 +867,6 @@
                 </li>
                 <li Class="CompProperties_Flickable" />
                 <li Class="CompProperties_Breakdownable" />
-                <li Class="CompProperties_Refuelable">
-                  <fuelLabel>Shots until barrel change</fuelLabel>
-                  <fuelGizmoLabel>Barrel durability</fuelGizmoLabel>
-                  <fuelFilter>
-                    <thingDefs>
-                      <li>Steel</li>
-                    </thingDefs>
-                  </fuelFilter>
-                  <fuelCapacity>40</fuelCapacity>
-                  <initialFuelPercent>1</initialFuelPercent>
-                  <autoRefuelPercent>0.75</autoRefuelPercent>
-                  <showFuelGizmo>true</showFuelGizmo>
-                  <minimumFueledThreshold>1</minimumFueledThreshold>
-                  <fuelMultiplier>0.75</fuelMultiplier>
-                  <factorByDifficulty>true</factorByDifficulty>
-                  <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
-                  <outOfFuelMessage>Cannot shoot: Needs new barrel</outOfFuelMessage>
-                  <fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
-                </li>
               </comps>
               <description>A turret with a mechanoid trinity gun on top that automatically fires at nearby and distant enemies. Has a chance to explode in an inferno when damaged.\n\nEvolved defense building with an unbelievable firerate and low accuracy, designed to maw down anything entering its security zone. Has a Trinity Gun, which is fed by 4 large ammunition containers with magnum breaker cartridges inside. The central weapon system is mounted on an auto turret. Needs steel to renew the barrels after heave use. Can be upgraded.</description>
               <passability>PassThroughOnly</passability>
