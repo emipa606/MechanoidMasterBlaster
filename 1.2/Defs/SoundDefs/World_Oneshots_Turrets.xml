@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <SoundDef>
+    <defName>MechanoidPoweredNitroRound</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>MechanoidTurret/MechanoidLaserCannon</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>10</min>
+          <max>50</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.8304348</min>
+          <max>1.015978</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>MechanoidLaserPulse</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>MechanoidTurret/MechanoidLaserGun</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>10</min>
+          <max>50</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.8304348</min>
+          <max>1.015978</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>MechanoidFlashLight</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <onCamera>True</onCamera>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>MechanoidTurret/MechanoidLaserImpulse</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>10</min>
+          <max>40</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.8304348</min>
+          <max>1.015978</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>MechanoidEnergizedShot</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <onCamera>True</onCamera>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>MechanoidTurret/MechanoidLaserBlaster</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>10</min>
+          <max>50</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.8304348</min>
+          <max>1.015978</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>MechanoidMortar</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <onCamera>True</onCamera>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>MechanoidTurret/MechanoidMortar</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>20</min>
+          <max>50</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.8304348</min>
+          <max>1.015978</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>MechanoidShredder</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>4</maxSimultaneous>
+    <subSounds>
+      <li>
+        <muteWhenPaused>True</muteWhenPaused>
+        <onCamera>True</onCamera>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>MechanoidTurret/MechanoidQuadGun</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>0</min>
+          <max>30</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.9804348</min>
+          <max>1.000978</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>MechanoidPhaserBeam</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>MechanoidTurret/MechanoidPhaser</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>10</min>
+          <max>30</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.9904348</min>
+          <max>1.000978</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>MechanoidBlizzard</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>MechanoidTurret/MechanoidNova</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>30</min>
+          <max>70</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.9904348</min>
+          <max>1.000978</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>MechanoidWhiz</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <onCamera>True</onCamera>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>MechanoidTurret/MechanoidBullet</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>10</min>
+          <max>50</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.9904348</min>
+          <max>1.000978</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>MechanoidThermal</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <onCamera>True</onCamera>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>MechanoidTurret/MechanoidPermafrost</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>10</min>
+          <max>50</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.9904348</min>
+          <max>1.000978</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+</Defs>
