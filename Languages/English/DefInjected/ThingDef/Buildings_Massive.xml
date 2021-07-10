@@ -1,13 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <MPC_MechanoidMultiTurret.label>Mechanoid Multi Burst</MPC_MechanoidMultiTurret.label>
   <MPC_MechanoidMultiTurret.description>A tank turret with a Quadgun on top that automatically fires at nearby and distant enemies. Has a chance to explode in an inferno when damaged.\n\nNeeds Plasteel to repair.\n\nEvolved defense building, primarily made to sieve through approaching combat forces with its superior firepower. Has high velocity fastcharger guns with an adaptive AI target system attached to it. The central weapon system is mounted on an auto turret. Can be upgraded.</MPC_MechanoidMultiTurret.description>
-
   <Bullet_MechanoidMultiTurret.label>High Velocity Charge</Bullet_MechanoidMultiTurret.label>
-
   <Gun_MechanoidMultiTurret.label>Mechanoid Multi Burst</Gun_MechanoidMultiTurret.label>
   <Gun_MechanoidMultiTurret.description>Evolved defense building, primarily made to sieve through approaching combat forces with its superior firepower. Has high velocity fastcharger guns with an adaptive AI target system attached to it. The central weapon system is mounted on an auto turret.</Gun_MechanoidMultiTurret.description>
-
-
 </LanguageData>

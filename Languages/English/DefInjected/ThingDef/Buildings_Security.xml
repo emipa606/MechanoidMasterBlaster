@@ -1,13 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <MPC_MechanoidBlasterTurret.label>Mechanoid Blaster</MPC_MechanoidBlasterTurret.label>
   <MPC_MechanoidBlasterTurret.description>A turret with a mechanoid blaster on top that automatically fires at nearby and distant enemies. Has a chance to explode in an EMP impulse when damaged.\n\nEvolved defense building, primarily made for stationary warfare against xenomorphic insectoids and mechanoid swarms - on planets of importance. Has 4 Blaster Cannons with a long range target acquisition attached to it. The central weapon system is mounted on an auto turret of a sturdy nature. Relies on Mechanoid Technology. Can be upgraded.</MPC_MechanoidBlasterTurret.description>
-
   <Bullet_MechanoidBlasterTurret.label>Laser salvo</Bullet_MechanoidBlasterTurret.label>
-
   <Gun_MechanoidBlasterTurret.label>Mechanoid Blaster</Gun_MechanoidBlasterTurret.label>
   <Gun_MechanoidBlasterTurret.description>Evolved defense building, primarily made for stationary warfare against xenomorphic insectoids and mechanoid swarms - on planets of importance. Has 4 Blaster Cannons with a long range target acquisition attached to it. The central weapon system is mounted on an auto turret of a sturdy nature. Relies on Mechanoid Technology.</Gun_MechanoidBlasterTurret.description>
-
-
 </LanguageData>

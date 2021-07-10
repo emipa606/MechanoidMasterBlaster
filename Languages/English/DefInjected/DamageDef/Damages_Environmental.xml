@@ -1,28 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Laser -->
-
   <Mech_Laser.label>concentrated energy</Mech_Laser.label>
   <Mech_Laser.deathMessage>{0} was ripped apart in a microexplosion.</Mech_Laser.deathMessage>
-
-
   <!-- Devastator -->
-
   <Mech_Icecloud.label>frostburn</Mech_Icecloud.label>
   <Mech_Icecloud.deathMessage>{0} has succumbed to frostbite.</Mech_Icecloud.deathMessage>
-
-
   <!-- Blaster -->
-
   <Mech_Inferno.label>inferno</Mech_Inferno.label>
   <Mech_Inferno.deathMessage>{0} has burned to death in an inferno.</Mech_Inferno.deathMessage>
-
-
   <!-- Multi Burst -->
-
   <Mech_Shredder.label>shredder</Mech_Shredder.label>
   <Mech_Shredder.deathMessage>{0} has been sieved through to death.</Mech_Shredder.deathMessage>
-
-
 </LanguageData>
