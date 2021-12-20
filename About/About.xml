@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Mechanoid Master Blaster (Continued)</name>
   <packageId>Mlie.MechanoidMasterBlaster</packageId>
@@ -23,11 +23,11 @@
     <li>CETeam.CombatExtended</li>
     <li>XeoNovaDan.TurretExtensions</li>
   </loadAfter>
-  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
 Update of Trunkens mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1731170217
 
-[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+[img]https://i.imgur.com/pufA0kM.png[/img]
 
 [table]
 	[tr]
@@ -36,111 +36,10 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1731170217
 	[/tr]
 [/table]
 	
-[img]https://i.imgur.com/NOW7jU1.png[/img]
-
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
 [h1]Project Map[/h1]
 
 Available Turrets: [b]Shockwave Coil[/b] | [b]Nitro Laser[/b] | [b]Salvo Blaster[/b] | [b]Multi Burst[/b] | [b]Devastator[/b]
-
-[img]https://i.ibb.co/4FtwpLK/Mechanoid-Turret-PROJECTMAP.png[/img]
-
-Sick Gun and/or Trap will be added in the future (theme). You have a great idea? [i]Let me know![/i]
-
-[img]https://i.ibb.co/GRn1CVW/Trunken-Rifle-128x128.png[/img]
-
-[h1]Content[/h1]
-
-This was made for everyone who likes Mechanoid Power Source and the little Quest theme which stands behind it. You collect an item after an epic fight with some horrifying alien robots (The Power Cell), which grants you access to a variety of cool features like passive energy after research. While you investigate it more, your scientists will discover its raw power in warfare. Master Blaster adds a selection of weapons to this rewarding system:
-
-[h1]The Mechanoid Turret[/h1]
-
-[b]Properties[/b]
-
- - Supererior Targeting
- - Laser Pew Pew
- - Slow reload
- - Plated
- - 1x1
-
-[b]Requirements[/b]
-
- - Technology &quot;Mechanoid power systems&quot;
-   (last dependency: &quot;Multy Analyzer&quot;)
- - Metal: 150-300
- - Plasteel: 150-300
- - Uranium / Gold : 25-75
- - Components: 4-8 / 1
- - Mechanoid Power Cell (when installed)
- - Power consumption: 500 W
-
-Needs ~11 Researches from scratch Crash Landing
-
-[h1]Compatibility[/h1]
-
- - [XND] Turret Extensions (Upgrades)
- - Mechanoid Power Source (Auto Balance when loaded before)
- - Combat Extended (Infinite Ammo: Xeno Hot Cell)
- - Works with old savegames
-
-[img]https://i.ibb.co/Cs48QPv/CE-COMBAT-EXTENDED-ARHHH-klein.png[/img]
-
-[i]Rips apart everything which comes close to your fortress.[/i]
-
-[b]Load order[/b]
-
- 1. [XND] Turret Extensions
- 2. More Crashed Ship Parts
- 3. Mechanoid Power Source
- 4. Mechanoid Master Blaster
-
-Prevents loss of Power Cell now on destroy/deconstruction of the Turret (sometimes)
-
-[h1]Upgrades[/h1]
-
-When you have Turret Extensions by XeoNovaDan installed, you can upgrade to any of your favored Textures now. Be aware though: Smarter Turrets need more energy, but can be controlled (Target selection)
-
-[h1]Trinity Gun[/h1]
-
-Mechanoid Master Blaster comes now with an extra Highlight for early shenanigans: The Trinity Gun. Requires a Minigun to build, needs Heavy Turrets Research and makes your enemies bath in your bullets!
-
-[h1]Credits[/h1]
-
-Harmony * by Pardeike
-Assemblies Deconstruct Return Fix * by dninemfive
-Sound Effects * wertstahl + cgeffex + ogsoundfx + Evaine and co
-Combat Extended GFX * Shinzy
-Brother in arms * Kikohi
-Upcoming Gun * by Luizi
-German Translation * by Endgegner
-Teaser Clip * by Westwood Studios
-
-[b]Changelog[/b]
-
-**Update: Another One
-**Update: And Another One
-**Update: And Another One
-**Update: New Upgrades
-**Update: And Another One
-**Update: And Another One (Trinity)
-
-[i]Version 2.0.0.5[/i]
-
-[img]https://media.giphy.com/media/WQ0Wwh2q3mPugctpQS/giphy.gif[/img]
-
-[h1]Links[/h1]
-
-[XND] Turret Extensions: [url]https://steamcommunity.com/sharedfiles/filedetails/?id=1496122245[/url]
-More Crashed Ship Parts: [url]https://steamcommunity.com/sharedfiles/filedetails/?id=1638467041[/url]
-Mechanoid Power Source: [url]https://steamcommunity.com/sharedfiles/filedetails/?id=1723521547[/url]
-Pulsefire Turret: [url]https://steamcommunity.com/sharedfiles/filedetails/?id=1712142869[/url] (CE ready)
-Deconstruct Return Fix only: https://steamcommunity.com/sharedfiles/filedetails/?id=1543064443
-
-[h1]GFX[/h1]
-
-Ended up making hundreds of textures for the turrets, here are some examples...
-
-[img]https://i.ibb.co/yy5yZLh/Mechanoid-Turret-OUTSOURCED.png[/img]
-| [b]Nitro Laser[/b] | [b]Salvo Blaster[/b] | [b]Multi Burst[/b] | [b]Devastator[/b]
 
 [img]https://i.ibb.co/4FtwpLK/Mechanoid-Turret-PROJECTMAP.png[/img]
 
@@ -207,7 +106,7 @@ Mechanoid Master Blaster comes now with an extra Highlight for early shenanigans
 
 Harmony * by Pardeike
 Assemblies Deconstruct Return Fix * by dninemfive
-Sound Effects * wertstahl + cgeffex + ogsoundfx + Evaine and co
+Sound Effects * wertstahl + cgeffex + ogsoundfx + Evaine &amp;amp; co
 Combat Extended GFX * Shinzy
 Brother in arms * Kikohi
 Upcoming Gun * by Luizi
@@ -243,7 +142,7 @@ Ended up making hundreds of textures for the turrets, here are some examples...
 
 [img]https://i.ibb.co/yy5yZLh/Mechanoid-Turret-OUTSOURCED.png[/img]
 
-[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[img]https://i.imgur.com/PwoNOj4.png[/img]
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
@@ -254,4 +153,3 @@ Ended up making hundreds of textures for the turrets, here are some examples...
 [/list]
 </description>
 </ModMetaData>
-

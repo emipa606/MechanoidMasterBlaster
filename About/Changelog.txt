@@ -1,5 +1,8 @@
 # Changelog for MechanoidMasterBlaster
 
+1.0.15.0 - CE-patch is now included in the main CE-mod instead
+
+
 1.0.14.0 - Mod updated for 1.3 and passed autotests
 
 
