@@ -1026,6 +1026,7 @@
   <Operation Class="PatchOperationFindMod">
     <mods>
       <li>Mechanoid Power</li>
+      <li>Mechanoid Power (Continued)</li>
     </mods>
     <match Class="PatchOperationSequence">
       <success>Always</success>
@@ -1044,6 +1045,7 @@
   <Operation Class="PatchOperationFindMod">
     <mods>
       <li>Mechanoid Power</li>
+      <li>Mechanoid Power (Continued)</li>
     </mods>
     <match Class="PatchOperationSequence">
       <success>Always</success>
@@ -1062,6 +1064,7 @@
   <Operation Class="PatchOperationFindMod">
     <mods>
       <li>Mechanoid Power</li>
+      <li>Mechanoid Power (Continued)</li>
     </mods>
     <match Class="PatchOperationSequence">
       <success>Always</success>
@@ -1081,6 +1084,7 @@
   <Operation Class="PatchOperationFindMod">
     <mods>
       <li>Mechanoid Power</li>
+      <li>Mechanoid Power (Continued)</li>
     </mods>
     <match Class="PatchOperationSequence">
       <success>Always</success>
@@ -1100,6 +1104,7 @@
   <Operation Class="PatchOperationFindMod">
     <mods>
       <li>[XND] Turret Extensions</li>
+      <li>[XND] Turret Extensions (Continued)</li>
     </mods>
     <match Class="PatchOperationSequence">
       <success>Always</success>
@@ -1144,6 +1149,7 @@
   <Operation Class="PatchOperationFindMod">
     <mods>
       <li>[XND] Turret Extensions</li>
+      <li>[XND] Turret Extensions (Continued)</li>
     </mods>
     <match Class="PatchOperationSequence">
       <success>Always</success>
@@ -1188,6 +1194,7 @@
   <Operation Class="PatchOperationFindMod">
     <mods>
       <li>[XND] Turret Extensions</li>
+      <li>[XND] Turret Extensions (Continued)</li>
     </mods>
     <match Class="PatchOperationSequence">
       <success>Always</success>
@@ -1240,6 +1247,7 @@
   <Operation Class="PatchOperationFindMod">
     <mods>
       <li>[XND] Turret Extensions</li>
+      <li>[XND] Turret Extensions (Continued)</li>
     </mods>
     <match Class="PatchOperationSequence">
       <success>Always</success>
@@ -1284,6 +1292,7 @@
   <Operation Class="PatchOperationFindMod">
     <mods>
       <li>[XND] Turret Extensions</li>
+      <li>[XND] Turret Extensions (Continued)</li>
     </mods>
     <match Class="PatchOperationSequence">
       <success>Always</success>
@@ -1328,6 +1337,7 @@
   <Operation Class="PatchOperationFindMod">
     <mods>
       <li>[XND] Turret Extensions</li>
+      <li>[XND] Turret Extensions (Continued)</li>
     </mods>
     <match Class="PatchOperationSequence">
       <success>Always</success>
@@ -1376,6 +1386,7 @@
   <Operation Class="PatchOperationFindMod">
     <mods>
       <li>[XND] Turret Extensions</li>
+      <li>[XND] Turret Extensions (Continued)</li>
     </mods>
     <!-- No Upgrades found -->
     <nomatch Class="PatchOperationSequence">
