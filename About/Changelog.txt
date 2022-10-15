@@ -1,5 +1,8 @@
 # Changelog for MechanoidMasterBlaster
 
+1.4.1 - Mod updated for 1.4 and passed autotests
+
+
 1.3.2 - Fixed Turret Expansion and Mechanoid Power patches
 
 
