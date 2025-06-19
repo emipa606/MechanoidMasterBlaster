@@ -1,14 +1,17 @@
-# MechanoidMasterBlaster
+# [[Legacy] Mechanoid Master Blaster (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2013229253)
 
 ![Image](https://i.imgur.com/buuPQel.png)
 
 Update of Trunkens mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1731170217
 
+**The release of RimWorld 1.6 added improved support for [Asset Bundles](https://github.com/emipa606/AssetBuilder/blob/main/README.md).**
+To avoid doubling the size of the mod, it was re-released using only Asset Bundles, you can find the new version of this mod [here](https://steamcommunity.com/sharedfiles/filedetails/?id=3503503505).
+This version will not receive any further updates.
+
 - CE-patch is now included in the main CE-mod instead
 
 ![Image](https://i.imgur.com/pufA0kM.png)
-
 	
 ![Image](https://i.imgur.com/Z4GOv8H.png)
 
@@ -19,11 +22,9 @@ Available Turrets: **Shockwave Coil** | **Nitro Laser** | **Salvo Blaster** | **
 
 ![Image](https://i.ibb.co/4FtwpLK/Mechanoid-Turret-PROJECTMAP.png)
 
-
 Sick Gun and/or Trap will be added in the future (theme). You have a great idea? *Let me know!*
 
 ![Image](https://i.ibb.co/GRn1CVW/Trunken-Rifle-128x128.png)
-
 
 # Content
 
@@ -63,7 +64,6 @@ Needs ~11 Researches from scratch Crash Landing
  - Works with old savegames
 
 ![Image](https://i.ibb.co/Cs48QPv/CE-COMBAT-EXTENDED-ARHHH-klein.png)
-
 
 *Rips apart everything which comes close to your fortress.*
 
@@ -111,14 +111,13 @@ Teaser Clip * by Westwood Studios
 
 ![Image](https://media.giphy.com/media/WQ0Wwh2q3mPugctpQS/giphy.gif)
 
-
 # Links
 
 
-[XND] Turret Extensions: [url]https://steamcommunity.com/sharedfiles/filedetails/?id=1496122245
-More Crashed Ship Parts: [url]https://steamcommunity.com/sharedfiles/filedetails/?id=1638467041
-Mechanoid Power Source: [url]https://steamcommunity.com/sharedfiles/filedetails/?id=1723521547
-Pulsefire Turret: [url]https://steamcommunity.com/sharedfiles/filedetails/?id=1712142869 (CE ready)
+[XND] Turret Extensions: [url]https://steamcommunity.com/sharedfiles/filedetails/?id=1496122245[/url]
+More Crashed Ship Parts: [url]https://steamcommunity.com/sharedfiles/filedetails/?id=1638467041[/url]
+Mechanoid Power Source: [url]https://steamcommunity.com/sharedfiles/filedetails/?id=1723521547[/url]
+Pulsefire Turret: [url]https://steamcommunity.com/sharedfiles/filedetails/?id=1712142869[/url] (CE ready)
 Deconstruct Return Fix only: https://steamcommunity.com/sharedfiles/filedetails/?id=1543064443
 
 Join us on Discord: https://discord.gg/sT4zdXt
@@ -130,20 +129,18 @@ Ended up making hundreds of textures for the turrets, here are some examples...
 
 ![Image](https://i.ibb.co/yy5yZLh/Mechanoid-Turret-OUTSOURCED.png)
 
-
 ![Image](https://i.imgur.com/PwoNOj4.png)
 
 
 
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib or the standalone https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader and command Ctrl+F12
+-  Post your error-log using [HugsLib](https://steamcommunity.com/workshop/filedetails/?id=818773962) or the standalone [Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
--  Use https://github.com/RimSort/RimSort/releases/latest]RimSort to sort your mods
+-  Use [RimSort](https://github.com/RimSort/RimSort/releases/latest) to sort your mods
 
+ 
 
-
-https://steamcommunity.com/sharedfiles/filedetails/changelog/2013229253]![Image](https://img.shields.io/github/v/release/emipa606/MechanoidMasterBlaster?label=latest%20version&style=plastic&color=9f1111&labelColor=black)
-
+[![Image](https://img.shields.io/github/v/release/emipa606/MechanoidMasterBlaster?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2013229253)
