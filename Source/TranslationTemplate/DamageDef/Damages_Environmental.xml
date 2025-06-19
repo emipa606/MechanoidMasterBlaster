@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: frostburn -->
+  <Mech_Icecloud.label>frostburn</Mech_Icecloud.label>
+  <!-- EN: {0} has succumbed to frostbite. -->
+  <Mech_Icecloud.deathMessage>{0} has succumbed to frostbite.</Mech_Icecloud.deathMessage>
+  <!-- EN: inferno -->
+  <Mech_Inferno.label>inferno</Mech_Inferno.label>
+  <!-- EN: {0} has burned to death in an inferno. -->
+  <Mech_Inferno.deathMessage>{0} has burned to death in an inferno.</Mech_Inferno.deathMessage>
+  <!-- EN: concentrated energy -->
+  <Mech_Laser.label>concentrated energy</Mech_Laser.label>
+  <!-- EN: {0} was ripped apart in a microexplosion. -->
+  <Mech_Laser.deathMessage>{0} was ripped apart in a microexplosion.</Mech_Laser.deathMessage>
+  <!-- EN: shredder -->
+  <Mech_Shredder.label>shredder</Mech_Shredder.label>
+  <!-- EN: {0} has been sieved through to death. -->
+  <Mech_Shredder.deathMessage>{0} has been sieved through to death.</Mech_Shredder.deathMessage>
+</LanguageData>

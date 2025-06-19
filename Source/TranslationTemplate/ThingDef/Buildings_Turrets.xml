@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Powered nitro laser -->
+  <Bullet_MechanoidLaserTurret.label>Powered nitro laser</Bullet_MechanoidLaserTurret.label>
+  <!-- EN: Powered nitro laser enhanced -->
+  <Bullet_MechanoidLaserTurretEnhanced.label>Powered nitro laser enhanced</Bullet_MechanoidLaserTurretEnhanced.label>
+  <!-- EN: Mechanoid Laser -->
+  <Gun_MechanoidLaserTurret.label>Mechanoid Laser</Gun_MechanoidLaserTurret.label>
+  <!-- EN: Evolved defense building, primarily made for stationary warfare against heavy ordinance - on planets of importance. Has a Laser Cannon with a long range target acquisition attached to it. The central weapon system is mounted on an auto turret. Relies on Mechanoid Technology. -->
+  <Gun_MechanoidLaserTurret.description>Evolved defense building, primarily made for stationary warfare against heavy ordinance - on planets of importance. Has a Laser Cannon with a long range target acquisition attached to it. The central weapon system is mounted on an auto turret. Relies on Mechanoid Technology.</Gun_MechanoidLaserTurret.description>
+  <!-- EN: Mechanoid Laser -->
+  <Gun_MechanoidLaserTurret.verbs.Verb_Shoot.label>Mechanoid Laser</Gun_MechanoidLaserTurret.verbs.Verb_Shoot.label>
+  <!-- EN: Mechanoid Laser Enhanced -->
+  <Gun_MechanoidLaserTurretEnhanced.label>Mechanoid Laser Enhanced</Gun_MechanoidLaserTurretEnhanced.label>
+  <!-- EN: Evolved defense building, primarily made for stationary warfare against heavy ordinance - on planets of importance. Has a Laser Cannon with a long range target acquisition attached to it. The central weapon system is mounted on an auto turret. Relies on Mechanoid Technology. Upgraded. -->
+  <Gun_MechanoidLaserTurretEnhanced.description>Evolved defense building, primarily made for stationary warfare against heavy ordinance - on planets of importance. Has a Laser Cannon with a long range target acquisition attached to it. The central weapon system is mounted on an auto turret. Relies on Mechanoid Technology. Upgraded.</Gun_MechanoidLaserTurretEnhanced.description>
+  <!-- EN: Mechanoid Laser Enhanced -->
+  <Gun_MechanoidLaserTurretEnhanced.verbs.Verb_Shoot.label>Mechanoid Laser Enhanced</Gun_MechanoidLaserTurretEnhanced.verbs.Verb_Shoot.label>
+  <!-- EN: Mechanoid Laser -->
+  <MPC_MechanoidLaserTurret.label>Mechanoid Laser</MPC_MechanoidLaserTurret.label>
+  <!-- EN: A turret with a mechanoid laser gun on top that automatically fires at nearby and distant enemies. Has a chance to explode in an EMP impulse when damaged.\n\nEvolved defense building, primarily made for stationary warfare against heavy ordinance - on planets of importance. Has a Laser Cannon with a long range target acquisition attached to it. The central weapon system is mounted on an auto turret. Relies on Mechanoid Technology. Can be upgraded. -->
+  <MPC_MechanoidLaserTurret.description>A turret with a mechanoid laser gun on top that automatically fires at nearby and distant enemies. Has a chance to explode in an EMP impulse when damaged.
+
+Evolved defense building, primarily made for stationary warfare against heavy ordinance - on planets of importance. Has a Laser Cannon with a long range target acquisition attached to it. The central weapon system is mounted on an auto turret. Relies on Mechanoid Technology. Can be upgraded.</MPC_MechanoidLaserTurret.description>
+</LanguageData>

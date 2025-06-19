@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Psi shockwave -->
+  <Bullet_MechanoidShockwaveTurret.label>Psi shockwave</Bullet_MechanoidShockwaveTurret.label>
+  <!-- EN: Psi shockwave enhanced -->
+  <Bullet_MechanoidShockwaveTurretEnhanced.label>Psi shockwave enhanced</Bullet_MechanoidShockwaveTurretEnhanced.label>
+  <!-- EN: Mechanoid Shockwave -->
+  <Gun_MechanoidShockwaveTurret.label>Mechanoid Shockwave</Gun_MechanoidShockwaveTurret.label>
+  <!-- EN: Evolved defense building, primarily made to support against incoming ground units. Outsorted models were taken out and misused to beat down riots on Jailplanets. Has a Shockwave Gun with an AI target acquisition attached to it. The central weapon system is mounted on an auto turret. -->
+  <Gun_MechanoidShockwaveTurret.description>Evolved defense building, primarily made to support against incoming ground units. Outsorted models were taken out and misused to beat down riots on Jailplanets. Has a Shockwave Gun with an AI target acquisition attached to it. The central weapon system is mounted on an auto turret.</Gun_MechanoidShockwaveTurret.description>
+  <!-- EN: Mechanoid Shockwave -->
+  <Gun_MechanoidShockwaveTurret.verbs.Verb_Shoot.label>Mechanoid Shockwave</Gun_MechanoidShockwaveTurret.verbs.Verb_Shoot.label>
+  <!-- EN: Mechanoid Shockwave Enhanced -->
+  <Gun_MechanoidShockwaveTurretEnhanced.label>Mechanoid Shockwave Enhanced</Gun_MechanoidShockwaveTurretEnhanced.label>
+  <!-- EN: Evolved defense building, primarily made to support against incoming ground units. Outsorted models were taken out and misused to beat down riots on Jailplanets. Has a Shockwave Gun with an AI target acquisition attached to it. The central weapon system is mounted on an auto turret. Upgraded. -->
+  <Gun_MechanoidShockwaveTurretEnhanced.description>Evolved defense building, primarily made to support against incoming ground units. Outsorted models were taken out and misused to beat down riots on Jailplanets. Has a Shockwave Gun with an AI target acquisition attached to it. The central weapon system is mounted on an auto turret. Upgraded.</Gun_MechanoidShockwaveTurretEnhanced.description>
+  <!-- EN: Mechanoid Shockwave Enhanced -->
+  <Gun_MechanoidShockwaveTurretEnhanced.verbs.Verb_Shoot.label>Mechanoid Shockwave Enhanced</Gun_MechanoidShockwaveTurretEnhanced.verbs.Verb_Shoot.label>
+  <!-- EN: Mechanoid Coil -->
+  <MPC_MechanoidShockwaveTurret.label>Mechanoid Coil</MPC_MechanoidShockwaveTurret.label>
+  <!-- EN: A turret with a shockwave gun on top that automatically fires at nearby and distant enemies. Meant to support during heavy warfare. Has a chance to explode in an EMP impulse when damaged.\n\nEvolved defense building, primarily made to support against incoming ground units. Outsorted models were taken out and misused to beat down riots on Jailplanets. Has a Shockwave Gun with an AI target acquisition attached to it. The central weapon system is mounted on an auto turret. Can be slightly upgraded. -->
+  <MPC_MechanoidShockwaveTurret.description>A turret with a shockwave gun on top that automatically fires at nearby and distant enemies. Meant to support during heavy warfare. Has a chance to explode in an EMP impulse when damaged.
+
+Evolved defense building, primarily made to support against incoming ground units. Outsorted models were taken out and misused to beat down riots on Jailplanets. Has a Shockwave Gun with an AI target acquisition attached to it. The central weapon system is mounted on an auto turret. Can be slightly upgraded.</MPC_MechanoidShockwaveTurret.description>
+</LanguageData>

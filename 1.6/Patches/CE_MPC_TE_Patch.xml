@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+  <!-- Mod Support for Mechanoid Power Research -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Mechanoid Power</li>
+      <li>Mechanoid Power (Continued)</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <!-- Prerequisites -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ResearchProjectDef[defName="MPC_MechanoidBlaster"]/prerequisites</xpath>
+          <value>
+            <li>MPC_MechanoidPowerSource</li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <!-- Mod Support for Mechanoid Power Costs -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Mechanoid Power</li>
+      <li>Mechanoid Power (Continued)</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <!-- Mechanoid Power Cell 2 Build -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="MPC_MechanoidBlasterTurret" or defName="MPC_MechanoidLaserTurret"]/costList</xpath>
+          <value>
+            <MPC_MechanoidPCell>1</MPC_MechanoidPCell>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <!-- Mod Support for Mechanoid Power Leavings -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Mechanoid Power</li>
+      <li>Mechanoid Power (Continued)</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <!-- Mechanoid Power Cell 2 Leavings -->
+        <li Class="PatchOperationInsert">
+          <xpath>/Defs/ThingDef[defName="MPC_MechanoidBlasterTurret" or defName="MPC_MechanoidLaserTurret"]</xpath>
+          <value>
+            <killedLeavings>
+              <MPC_MechanoidPCell>1</MPC_MechanoidPCell>
+            </killedLeavings>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Mechanoid Power</li>
+      <li>Mechanoid Power (Continued)</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <!-- Mechanoid Power Cell and AI 2 Leavings -->
+        <li Class="PatchOperationInsert">
+          <xpath>/Defs/ThingDef[defName="MPC_MechanoidBlasterTurret" or defName="MPC_MechanoidLaserTurret" or defName="MPC_MechanoidDevastatorTurret" or defName="MPC_MechanoidMultiTurret"]</xpath>
+          <value>
+            <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+            <resourcesFractionWhenDeconstructed>1</resourcesFractionWhenDeconstructed>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <!-- Mod Support for Turret Extensions -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>[XND] Turret Extensions</li>
+      <li>[XND] Turret Extensions (Continued)</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <!-- Mechanoid Upgrade Turret One -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="MPC_MechanoidBlasterTurret"]/comps</xpath>
+          <value>
+            <li Class="TurretExtensions.CompProperties_Upgradable">
+              <description>Liberty Platform Upgrade</description>
+              <upgradedTurretDescription>A turret with a mechanoid blaster on top that automtically fires at nearby and distant enemies. Has a chance to explode in an EMP impulse when damaged.\n\nEvolved defense building, primarily made for stationary warfare against xenomorphic insectoids and mechanoid swarms - on planets of importance. Has 4 Blaster Cannons with a long range target acquisition attached to it. The central weapon system is mounted on an auto turret of a sturdy nature. Relies on Mechanoid Technology.\n\nUpgraded onto a Liberty plattform for full and unrestricted mobility. Thats close to having legs.</upgradedTurretDescription>
+              <costList>
+                <Plasteel>75</Plasteel>
+                <Silver>250</Silver>
+                <BionicArm>1</BionicArm>
+              </costList>
+              <researchPrerequisites>
+                <li>Bionics</li>
+              </researchPrerequisites>
+              <workToUpgrade>12500</workToUpgrade>
+              <constructionSkillPrerequisite>17</constructionSkillPrerequisite>
+              <upgradeFailable>false</upgradeFailable>
+              <statOffsets>
+                <ShootingAccuracyTurret>0.01</ShootingAccuracyTurret>
+              </statOffsets>
+              <!-- <turretTopGraphicPath>Things/Building/Security/MechanoidBlasterGunEnhanced</turretTopGraphicPath> -->
+              <turretGunDef>Gun_MechanoidBlasterTurretEnhanced</turretGunDef>
+              <turretTopOffset>(0, 0.1)</turretTopOffset>
+              <basePowerConsumptionFactor>1.5</basePowerConsumptionFactor>
+              <canForceAttack>true</canForceAttack>
+              <baseResourceDropPct>1</baseResourceDropPct>
+              <destroyedResourceDropPct>0.75</destroyedResourceDropPct>
+            </li>
+            <li Class="TurretExtensions.CompProperties_SmartForcedTarget">
+              <onlyApplyWhenUpgraded>true</onlyApplyWhenUpgraded>
+            </li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <!-- Mod Support for Turret Extensions -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>[XND] Turret Extensions</li>
+      <li>[XND] Turret Extensions (Continued)</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <!-- Mechanoid Upgrade Turret Two -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="MPC_MechanoidLaserTurret"]/comps</xpath>
+          <value>
+            <li Class="TurretExtensions.CompProperties_Upgradable">
+              <description>Forecast Gateway System</description>
+              <upgradedTurretDescription>A turret with a mechanoid laser gun on top that automtically fires at nearby and distant enemies. Has a chance to explode in an EMP impulse when damaged.\n\nEvolved defense building, primarily made for stationary warfare against heavy ordinance - on planets of importance. Has a Laser Cannon with a long range target acquisition attached to it. The central weapon system is mounted on an auto turret. Relies on Mechanoid Technology.\n\nUpgraded with an automatic Forecast Gateway System to enhance its channeling power and accuracy vastly. Some crazy guy did that.</upgradedTurretDescription>
+              <costStuffCount>75</costStuffCount>
+              <costList>
+                <Silver>500</Silver>
+                <Gun_ChargeRifle>1</Gun_ChargeRifle>
+              </costList>
+              <researchPrerequisites>
+                <li>ChargedShot</li>
+              </researchPrerequisites>
+              <workToUpgrade>10000</workToUpgrade>
+              <constructionSkillPrerequisite>16</constructionSkillPrerequisite>
+              <upgradeFailable>false</upgradeFailable>
+              <statOffsets>
+                <ShootingAccuracyTurret>0.02</ShootingAccuracyTurret>
+              </statOffsets>
+              <!-- <turretTopGraphicPath>Things/Building/Security/MechanoidLaserGunEnhanced</turretTopGraphicPath> -->
+              <turretGunDef>Gun_MechanoidLaserTurretEnhanced</turretGunDef>
+              <turretTopOffset>(0, 0.05)</turretTopOffset>
+              <basePowerConsumptionFactor>1.5</basePowerConsumptionFactor>
+              <canForceAttack>true</canForceAttack>
+              <baseResourceDropPct>1</baseResourceDropPct>
+              <destroyedResourceDropPct>0.75</destroyedResourceDropPct>
+            </li>
+            <li Class="TurretExtensions.CompProperties_SmartForcedTarget">
+              <onlyApplyWhenUpgraded>true</onlyApplyWhenUpgraded>
+            </li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <!-- Mod Support for Turret Extensions -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>[XND] Turret Extensions</li>
+      <li>[XND] Turret Extensions (Continued)</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <!-- Mechanoid Upgrade Turret Three -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="MPC_MechanoidShockwaveTurret"]/comps</xpath>
+          <value>
+            <li Class="TurretExtensions.CompProperties_Upgradable">
+              <description>Sonic Boom Enhancer</description>
+              <upgradedTurretDescription>A turret with a shockwave gun on top that automtically fires at nearby and distant enemies. Meant to support during heavy warfare. Has a chance to explode in an EMP impulse when damaged.\n\nEvolved defense building, primarily made to support against incoming ground units. Outsorted models were alienated to beat down riots on Jailplanets. Has a Shockwave Gun with an AI target acquisition attached to it. The central weapon system is mounted on an auto turret. Can be slightly upgraded. The generator was improved with a Sonic Boom Enhancer.</upgradedTurretDescription>
+              <costList>
+                <Silver>500</Silver>
+                <Gold>75</Gold>
+                <ComponentSpacer>1</ComponentSpacer>
+              </costList>
+              <researchPrerequisites>
+                <li>ChargedShot</li>
+              </researchPrerequisites>
+              <workToUpgrade>15000</workToUpgrade>
+              <constructionSkillPrerequisite>15</constructionSkillPrerequisite>
+              <upgradeFailable>true</upgradeFailable>
+              <upgradeSuccessChanceFactor>1</upgradeSuccessChanceFactor>
+              <upgradeFailMinorResourcesRecovered>0.5</upgradeFailMinorResourcesRecovered>
+              <upgradeFailMajorResourcesRecovered>0.25</upgradeFailMajorResourcesRecovered>
+              <upgradeFailAlwaysMajor>false</upgradeFailAlwaysMajor>
+              <upgradeFailMajorDmgPctRange>
+                <min>0.1</min>
+                <max>0.5</max>
+              </upgradeFailMajorDmgPctRange>
+              <upgradeFailMajorChanceFactor>2</upgradeFailMajorChanceFactor>
+              <statOffsets>
+                <ShootingAccuracyTurret>0.05</ShootingAccuracyTurret>
+              </statOffsets>
+              <!-- <turretTopGraphicPath>Things/Building/Security/MechanoidShockwaveGunEnhanced</turretTopGraphicPath> -->
+              <turretGunDef>Gun_MechanoidShockwaveTurretEnhanced</turretGunDef>
+              <turretTopOffset>(0, 0)</turretTopOffset>
+              <basePowerConsumptionFactor>1.5</basePowerConsumptionFactor>
+              <turretBurstWarmupTimeFactor>0.9</turretBurstWarmupTimeFactor>
+              <turretBurstCooldownTimeFactor>0.9</turretBurstCooldownTimeFactor>
+              <canForceAttack>true</canForceAttack>
+              <baseResourceDropPct>0.75</baseResourceDropPct>
+              <destroyedResourceDropPct>0.75</destroyedResourceDropPct>
+            </li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <!-- Mod Support for Turret Extensions -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>[XND] Turret Extensions</li>
+      <li>[XND] Turret Extensions (Continued)</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <!-- Mechanoid Upgrade Turret Four -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="MPC_MechanoidDevastatorTurret"]/comps</xpath>
+          <value>
+            <li Class="TurretExtensions.CompProperties_Upgradable">
+              <description>Kevlar Fusion Case</description>
+              <upgradedTurretDescription>A turret with a heavy Novagun on top that automtically fires at nearby and distant enemies. Has a chance to explode in an inferno when damaged.\n\nEvolved defense building, primarily made to slow down any incoming offenses with its reactive orbs. The fireline Novagun is guided by an AI Smartfire upgrade and scans the surrounding area for thermal signatures and movement. The central weapon system is mounted on an auto turret. Offers a Kevlar Fusion stormhood against any kind of high penetration.</upgradedTurretDescription>
+              <costList>
+                <Synthread>50</Synthread>
+                <Hyperweave>50</Hyperweave>
+                <Uranium>50</Uranium>
+              </costList>
+              <researchPrerequisites>
+                <li>PoweredArmor</li>
+              </researchPrerequisites>
+              <workToUpgrade>17500</workToUpgrade>
+              <constructionSkillPrerequisite>17</constructionSkillPrerequisite>
+              <upgradeFailable>false</upgradeFailable>
+              <statFactors>
+                <MaxHitPoints>1.25</MaxHitPoints>
+              </statFactors>
+              <!-- <turretTopGraphicPath>Things/Building/Security/MechanoidDevastatorGunEnhanced</turretTopGraphicPath> -->
+              <turretGunDef>Gun_MechanoidDevastatorTurretEnhanced</turretGunDef>
+              <turretTopOffset>(0, 0.05)</turretTopOffset>
+              <basePowerConsumptionFactor>1.5</basePowerConsumptionFactor>
+              <canForceAttack>true</canForceAttack>
+              <baseResourceDropPct>1</baseResourceDropPct>
+              <destroyedResourceDropPct>0.75</destroyedResourceDropPct>
+            </li>
+            <li Class="TurretExtensions.CompProperties_SmartForcedTarget">
+              <onlyApplyWhenUpgraded>true</onlyApplyWhenUpgraded>
+            </li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <!-- Mod Support for Turret Extensions -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>[XND] Turret Extensions</li>
+      <li>[XND] Turret Extensions (Continued)</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <!-- Mechanoid Upgrade Turret Five -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="MPC_MechanoidMultiTurret"]/comps</xpath>
+          <value>
+            <li Class="TurretExtensions.CompProperties_Upgradable">
+              <description>High Density Plating</description>
+              <upgradedTurretDescription>A tank turret with a Quadgun on top that automtically fire at nearby and distant enemies. Has a chance to explode in an inferno when damaged.\n\nNeeds Plasteel to repair.\n\nEvolved defense building, primarily made to sieve through approaching combat forces with its superior firepower. Has high velocity fastcharger guns with an adaptive AI target system attached to it. The central weapon system is mounted on an auto turret. Enhanced with an extraordinary high density plating and ground stabilizers to withstand an earthquake.</upgradedTurretDescription>
+              <costList>
+                <Silver>750</Silver>
+                <Plasteel>50</Plasteel>
+                <Uranium>50</Uranium>
+              </costList>
+              <researchPrerequisites>
+                <li>PoweredArmor</li>
+              </researchPrerequisites>
+              <workToUpgrade>17500</workToUpgrade>
+              <constructionSkillPrerequisite>18</constructionSkillPrerequisite>
+              <upgradeFailable>false</upgradeFailable>
+              <statFactors>
+                <MaxHitPoints>1.5</MaxHitPoints>
+              </statFactors>
+              <!-- <turretTopGraphicPath>Things/Building/Security/MechanoidMultiGunEnhanced</turretTopGraphicPath> -->
+              <turretGunDef>Gun_MechanoidMultiTurretEnhanced</turretGunDef>
+              <turretTopOffset>(0, 0.15)</turretTopOffset>
+              <basePowerConsumptionFactor>1.5</basePowerConsumptionFactor>
+              <canForceAttack>true</canForceAttack>
+              <baseResourceDropPct>1</baseResourceDropPct>
+              <destroyedResourceDropPct>0.75</destroyedResourceDropPct>
+            </li>
+            <li Class="TurretExtensions.CompProperties_SmartForcedTarget">
+              <onlyApplyWhenUpgraded>true</onlyApplyWhenUpgraded>
+            </li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <!-- Mod Support for Turret Extensions -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>[XND] Turret Extensions</li>
+      <li>[XND] Turret Extensions (Continued)</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <!-- Mechanoid Upgrade Turret Six -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="MPC_MechanoidTrinityTurret"]/comps</xpath>
+          <value>
+            <li Class="TurretExtensions.CompProperties_Upgradable">
+              <description>Legacy Alloy</description>
+              <upgradedTurretDescription>A turret with a mechanoid trinity gun on top that automatically fires at nearby and distant enemies. Has a chance to explode in an inferno when damaged.\n\nEvolved defense building with an unbelievable firerate and low accuracy, designed to maw down anything entering its security zone. Has a Trinity Gun, which is fed by 4 large ammunition containers with magnum breaker cartridges inside. The central weapon system is mounted on an auto turret. Needs steel to renew the barrels after heave use. Can be upgraded. The casing has been reinforced with an Legacy Alloy. Can bath in bullets now.</upgradedTurretDescription>
+              <costList>
+                <Silver>500</Silver>
+                <Plasteel>50</Plasteel>
+                <Gold>50</Gold>
+                <Uranium>50</Uranium>
+              </costList>
+              <researchPrerequisites>
+                <li>PoweredArmor</li>
+              </researchPrerequisites>
+              <workToUpgrade>8500</workToUpgrade>
+              <constructionSkillPrerequisite>18</constructionSkillPrerequisite>
+              <upgradeFailable>false</upgradeFailable>
+              <statOffsets>
+                <ShootingAccuracyTurret>0.15</ShootingAccuracyTurret>
+              </statOffsets>
+              <statFactors>
+                <MaxHitPoints>1.5</MaxHitPoints>
+              </statFactors>
+              <!-- <turretTopGraphicPath>Things/Building/Security/MechanoidTrinityGunEnhanced</turretTopGraphicPath> -->
+              <turretGunDef>Gun_MechanoidTrinityEnhanced</turretGunDef>
+              <turretTopOffset>(0, 0.01)</turretTopOffset>
+              <basePowerConsumptionFactor>1.5</basePowerConsumptionFactor>
+              <canForceAttack>true</canForceAttack>
+              <baseResourceDropPct>1</baseResourceDropPct>
+              <destroyedResourceDropPct>0.75</destroyedResourceDropPct>
+            </li>
+            <li Class="TurretExtensions.CompProperties_SmartForcedTarget">
+              <onlyApplyWhenUpgraded>true</onlyApplyWhenUpgraded>
+            </li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <!-- Trick Seventeen -->
+  <!-- <Operation Class="PatchOperationFindMod"> -->
+  <!-- <mods> -->
+  <!-- <li>[XND] Turret Extensions</li> -->
+  <!-- </mods> -->
+  <!-- No Upgrades found -->
+  <!-- <nomatch Class="PatchOperationSequence"> -->
+  <!-- <success>Always</success> -->
+  <!-- <operations> -->
+  <!-- <li Class="PatchOperationReplace"> -->
+  <!-- <xpath>/Defs/ThingDef[defName="MPC_MechanoidMultiTurret"]/building/turretTopGraphicPath</xpath> -->
+  <!-- <value> -->
+  <!-- <turretTopGraphicPath>Things/Building/Security/MechanoidMultiGunEnhanced</turretTopGraphicPath> -->
+  <!-- </value> -->
+  <!-- </li> -->
+  <!-- </operations> -->
+  <!-- </nomatch> -->
+  <!-- </Operation> -->
+</Patch>

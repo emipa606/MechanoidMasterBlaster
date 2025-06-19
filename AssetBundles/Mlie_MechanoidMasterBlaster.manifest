@@ -1,0 +1,69 @@
+ManifestFileVersion: 0
+CRC: 1236845244
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7136327769d3b88def29660606c59704
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ce3b6d18a872ca8039cd5eb3c4fb7ef5
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 7136327769d3b88def29660606c59704
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.MechanoidMasterBlaster/Textures/Things/Projectile/LaserShot.png
+- Assets/Data/Mlie.MechanoidMasterBlaster/Textures/Things/Building/Security/MechanoidTurretGun.png
+- Assets/Data/Mlie.MechanoidMasterBlaster/Textures/Things/Building/Security/MechanoidTrinityGun_11Enhanced.png
+- Assets/Data/Mlie.MechanoidMasterBlaster/Textures/Things/Projectile/PhaserShot.png
+- Assets/Data/Mlie.MechanoidMasterBlaster/Textures/Things/Building/Security/MechanoidZoneTurretBase.png
+- Assets/Data/Mlie.MechanoidMasterBlaster/Textures/Things/Projectile/BlasterPulse.png
+- Assets/Data/Mlie.MechanoidMasterBlaster/Textures/Things/Weapons/Trunken_Rifle.png
+- Assets/Data/Mlie.MechanoidMasterBlaster/Textures/Things/Building/Security/MechanoidMultiGun.png
+- Assets/Data/Mlie.MechanoidMasterBlaster/Textures/Things/Building/Security/MechanoidLaserGun_Ico.png
+- Assets/Data/Mlie.MechanoidMasterBlaster/Textures/Things/Building/Security/MechanoidBlasterGun_11Enhanced.png
+- Assets/Data/Mlie.MechanoidMasterBlaster/Sounds/MechanoidTurret/MechanoidLaserBlaster.wav
+- Assets/Data/Mlie.MechanoidMasterBlaster/Sounds/MechanoidTurret/MechanoidQuadGun.wav
+- Assets/Data/Mlie.MechanoidMasterBlaster/Textures/Things/Building/Security/MechanoidMultiGun_11.png
+- Assets/Data/Mlie.MechanoidMasterBlaster/Textures/Things/Building/Security/MechanoidMultiGun_11Enhanced.png
+- Assets/Data/Mlie.MechanoidMasterBlaster/Textures/Things/Building/Security/MechanoidDevastatorGunEnhanced.png
+- Assets/Data/Mlie.MechanoidMasterBlaster/Textures/Things/Building/Security/MechanoidLaserGun.png
+- Assets/Data/Mlie.MechanoidMasterBlaster/Textures/Things/Projectile/LaserPulse.png
+- Assets/Data/Mlie.MechanoidMasterBlaster/Sounds/MechanoidTurret/MechanoidPermafrost.wav
+- Assets/Data/Mlie.MechanoidMasterBlaster/Textures/Things/Building/Security/MechanoidTurretBase.png
+- Assets/Data/Mlie.MechanoidMasterBlaster/Sounds/MechanoidTurret/MechanoidLaserCannon.wav
+- Assets/Data/Mlie.MechanoidMasterBlaster/Sounds/MechanoidTurret/MechanoidLaserImpulse.wav
+- Assets/Data/Mlie.MechanoidMasterBlaster/Sounds/MechanoidTurret/MechanoidLaserGun.wav
+- Assets/Data/Mlie.MechanoidMasterBlaster/Textures/Things/Building/Security/MechanoidTrinityGunEnhanced.png
+- Assets/Data/Mlie.MechanoidMasterBlaster/Textures/Things/Building/Security/MechanoidLaserGun_11.png
+- Assets/Data/Mlie.MechanoidMasterBlaster/Textures/Things/Building/Security/MechanoidTrinityGun_Ico.png
+- Assets/Data/Mlie.MechanoidMasterBlaster/Textures/Things/Building/Security/MechanoidShockwaveGun.png
+- Assets/Data/Mlie.MechanoidMasterBlaster/Textures/Things/Projectile/BlasterShot.png
+- Assets/Data/Mlie.MechanoidMasterBlaster/Sounds/MechanoidTurret/MechanoidNova.wav
+- Assets/Data/Mlie.MechanoidMasterBlaster/Sounds/MechanoidTurret/MechanoidMortar.wav
+- Assets/Data/Mlie.MechanoidMasterBlaster/Textures/Things/Building/Security/MechanoidDevastatorGun_11.png
+- Assets/Data/Mlie.MechanoidMasterBlaster/Textures/Things/Projectile/BulletTrinity.png
+- Assets/Data/Mlie.MechanoidMasterBlaster/Textures/Things/Building/Security/MechanoidTrinityGun.png
+- Assets/Data/Mlie.MechanoidMasterBlaster/Textures/Things/Building/Security/MechanoidTurretGun_11.png
+- Assets/Data/Mlie.MechanoidMasterBlaster/Textures/Things/Building/Security/MechanoidLoseTurretBase.png
+- Assets/Data/Mlie.MechanoidMasterBlaster/Textures/Things/Building/Security/MechanoidTurretPowerBase.png
+- Assets/Data/Mlie.MechanoidMasterBlaster/Textures/Things/Building/Security/MechanoidDevastatorGun_11Enhanced.png
+- Assets/Data/Mlie.MechanoidMasterBlaster/Sounds/MechanoidTurret/MechanoidPhaser.wav
+- Assets/Data/Mlie.MechanoidMasterBlaster/Textures/Things/Building/Security/MechanoidTrinityGun_11.png
+- Assets/Data/Mlie.MechanoidMasterBlaster/Textures/Things/Building/Security/MechanoidBlasterGunEnhanced.png
+- Assets/Data/Mlie.MechanoidMasterBlaster/Textures/Things/Building/Security/MechanoidTurretGun_Ico.png
+- Assets/Data/Mlie.MechanoidMasterBlaster/Textures/Things/Building/Security/MechanoidLaserGun_11Enhanced.png
+- Assets/Data/Mlie.MechanoidMasterBlaster/Textures/Things/Building/Security/MechanoidShockwaveGun_11.png
+- Assets/Data/Mlie.MechanoidMasterBlaster/Textures/Things/Building/Security/MechanoidLaserGunEnhanced.png
+- Assets/Data/Mlie.MechanoidMasterBlaster/Sounds/MechanoidTurret/MechanoidMultiGun.wav
+- Assets/Data/Mlie.MechanoidMasterBlaster/Textures/Things/Building/Security/MechanoidShockwaveGun_Ico.png
+- Assets/Data/Mlie.MechanoidMasterBlaster/Textures/Things/Building/Security/MechanoidDevastatorGun.png
+- Assets/Data/Mlie.MechanoidMasterBlaster/Sounds/MechanoidTurret/MechanoidBullet.wav
+- Assets/Data/Mlie.MechanoidMasterBlaster/Textures/Things/Building/Security/MechanoidMultiGunEnhanced.png
+Dependencies: []

@@ -1,0 +1,6 @@
+<Solution>
+  <Configurations>
+    <BuildType Name="Release" />
+  </Configurations>
+  <Project Path="DamagerWorker_BombNoCamShake/DamagerWorker_BombNoCamShake.csproj" />
+</Solution>

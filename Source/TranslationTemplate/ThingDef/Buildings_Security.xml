@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Laser salvo -->
+  <Bullet_MechanoidBlasterTurret.label>Laser salvo</Bullet_MechanoidBlasterTurret.label>
+  <!-- EN: Laser salvo enhanced -->
+  <Bullet_MechanoidBlasterTurretEnhanced.label>Laser salvo enhanced</Bullet_MechanoidBlasterTurretEnhanced.label>
+  <!-- EN: Mechanoid Blaster -->
+  <Gun_MechanoidBlasterTurret.label>Mechanoid Blaster</Gun_MechanoidBlasterTurret.label>
+  <!-- EN: Evolved defense building, primarily made for stationary warfare against xenomorphic insectoids and mechanoid swarms - on planets of importance. Has 4 Blaster Cannons with a long range target acquisition attached to it. The central weapon system is mounted on an auto turret of a sturdy nature. Relies on Mechanoid Technology. -->
+  <Gun_MechanoidBlasterTurret.description>Evolved defense building, primarily made for stationary warfare against xenomorphic insectoids and mechanoid swarms - on planets of importance. Has 4 Blaster Cannons with a long range target acquisition attached to it. The central weapon system is mounted on an auto turret of a sturdy nature. Relies on Mechanoid Technology.</Gun_MechanoidBlasterTurret.description>
+  <!-- EN: Mechanoid Blaster -->
+  <Gun_MechanoidBlasterTurret.verbs.Verb_Shoot.label>Mechanoid Blaster</Gun_MechanoidBlasterTurret.verbs.Verb_Shoot.label>
+  <!-- EN: Mechanoid Blaster Enhanced -->
+  <Gun_MechanoidBlasterTurretEnhanced.label>Mechanoid Blaster Enhanced</Gun_MechanoidBlasterTurretEnhanced.label>
+  <!-- EN: Evolved defense building, primarily made for stationary warfare against xenomorphic insectoids and mechanoid swarms - on planets of importance. Has 4 Blaster Cannons with a long range target acquisition attached to it. The central weapon system is mounted on an auto turret of a sturdy nature. Relies on Mechanoid Technology. Upgraded. -->
+  <Gun_MechanoidBlasterTurretEnhanced.description>Evolved defense building, primarily made for stationary warfare against xenomorphic insectoids and mechanoid swarms - on planets of importance. Has 4 Blaster Cannons with a long range target acquisition attached to it. The central weapon system is mounted on an auto turret of a sturdy nature. Relies on Mechanoid Technology. Upgraded.</Gun_MechanoidBlasterTurretEnhanced.description>
+  <!-- EN: Mechanoid Blaster Enhanced -->
+  <Gun_MechanoidBlasterTurretEnhanced.verbs.Verb_Shoot.label>Mechanoid Blaster Enhanced</Gun_MechanoidBlasterTurretEnhanced.verbs.Verb_Shoot.label>
+  <!-- EN: Mechanoid Blaster -->
+  <MPC_MechanoidBlasterTurret.label>Mechanoid Blaster</MPC_MechanoidBlasterTurret.label>
+  <!-- EN: A turret with a mechanoid blaster on top that automatically fires at nearby and distant enemies. Has a chance to explode in an EMP impulse when damaged.\n\nEvolved defense building, primarily made for stationary warfare against xenomorphic insectoids and mechanoid swarms - on planets of importance. Has 4 Blaster Cannons with a long range target acquisition attached to it. The central weapon system is mounted on an auto turret of a sturdy nature. Relies on Mechanoid Technology. Can be upgraded. -->
+  <MPC_MechanoidBlasterTurret.description>A turret with a mechanoid blaster on top that automatically fires at nearby and distant enemies. Has a chance to explode in an EMP impulse when damaged.
+
+Evolved defense building, primarily made for stationary warfare against xenomorphic insectoids and mechanoid swarms - on planets of importance. Has 4 Blaster Cannons with a long range target acquisition attached to it. The central weapon system is mounted on an auto turret of a sturdy nature. Relies on Mechanoid Technology. Can be upgraded.</MPC_MechanoidBlasterTurret.description>
+</LanguageData>

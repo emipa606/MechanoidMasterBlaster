@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: High Velocity Charge -->
+  <Bullet_MechanoidMultiTurret.label>High Velocity Charge</Bullet_MechanoidMultiTurret.label>
+  <!-- EN: High Velocity Charge Enhanced -->
+  <Bullet_MechanoidMultiTurretEnhanced.label>High Velocity Charge Enhanced</Bullet_MechanoidMultiTurretEnhanced.label>
+  <!-- EN: Mechanoid Multi Burst -->
+  <Gun_MechanoidMultiTurret.label>Mechanoid Multi Burst</Gun_MechanoidMultiTurret.label>
+  <!-- EN: Evolved defense building, primarily made to sieve through approaching combat forces with its superior firepower. Has high velocity fastcharger guns with an adaptive AI target system attached to it. The central weapon system is mounted on an auto turret. -->
+  <Gun_MechanoidMultiTurret.description>Evolved defense building, primarily made to sieve through approaching combat forces with its superior firepower. Has high velocity fastcharger guns with an adaptive AI target system attached to it. The central weapon system is mounted on an auto turret.</Gun_MechanoidMultiTurret.description>
+  <!-- EN: Mechanoid Multi Burst -->
+  <Gun_MechanoidMultiTurret.verbs.Verb_Shoot.label>Mechanoid Multi Burst</Gun_MechanoidMultiTurret.verbs.Verb_Shoot.label>
+  <!-- EN: Mechanoid Multi Burst Enhanced -->
+  <Gun_MechanoidMultiTurretEnhanced.label>Mechanoid Multi Burst Enhanced</Gun_MechanoidMultiTurretEnhanced.label>
+  <!-- EN: Evolved defense building, primarily made to sieve through approaching combat forces with its superior firepower. Has high velocity fastcharger guns with an adaptive AI target system attached to it. The central weapon system is mounted on an auto turret. Upgraded. -->
+  <Gun_MechanoidMultiTurretEnhanced.description>Evolved defense building, primarily made to sieve through approaching combat forces with its superior firepower. Has high velocity fastcharger guns with an adaptive AI target system attached to it. The central weapon system is mounted on an auto turret. Upgraded.</Gun_MechanoidMultiTurretEnhanced.description>
+  <!-- EN: Mechanoid Multi Burst Enhanced -->
+  <Gun_MechanoidMultiTurretEnhanced.verbs.Verb_Shoot.label>Mechanoid Multi Burst Enhanced</Gun_MechanoidMultiTurretEnhanced.verbs.Verb_Shoot.label>
+  <!-- EN: Mechanoid Multi Burst -->
+  <MPC_MechanoidMultiTurret.label>Mechanoid Multi Burst</MPC_MechanoidMultiTurret.label>
+  <!-- EN: A tank turret with a Quadgun on top that automatically fires at nearby and distant enemies. Has a chance to explode in an inferno when damaged.\n\nNeeds Plasteel to repair.\n\nEvolved defense building, primarily made to sieve through approaching combat forces with its superior firepower. Has high velocity fastcharger guns with an adaptive AI target system attached to it. The central weapon system is mounted on an auto turret. Can be upgraded. -->
+  <MPC_MechanoidMultiTurret.description>A tank turret with a Quadgun on top that automatically fires at nearby and distant enemies. Has a chance to explode in an inferno when damaged.
+
+Needs Plasteel to repair.
+
+Evolved defense building, primarily made to sieve through approaching combat forces with its superior firepower. Has high velocity fastcharger guns with an adaptive AI target system attached to it. The central weapon system is mounted on an auto turret. Can be upgraded.</MPC_MechanoidMultiTurret.description>
+  <!-- EN: Barrel durability -->
+  <MPC_MechanoidMultiTurret.comps.CompRefuelable.fuelGizmoLabel>Barrel durability</MPC_MechanoidMultiTurret.comps.CompRefuelable.fuelGizmoLabel>
+  <!-- EN: Shots until barrel change -->
+  <MPC_MechanoidMultiTurret.comps.CompRefuelable.fuelLabel>Shots until barrel change</MPC_MechanoidMultiTurret.comps.CompRefuelable.fuelLabel>
+  <!-- EN: Cannot shoot: Needs new barrel -->
+  <MPC_MechanoidMultiTurret.comps.CompRefuelable.outOfFuelMessage>Cannot shoot: Needs new barrel</MPC_MechanoidMultiTurret.comps.CompRefuelable.outOfFuelMessage>
+</LanguageData>

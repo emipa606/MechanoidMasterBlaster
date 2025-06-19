@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Blizzard Shards -->
+  <Bullet_MechanoidDevastatorTurret.label>Blizzard Shards</Bullet_MechanoidDevastatorTurret.label>
+  <!-- EN: Blizzard Shards Enhanced -->
+  <Bullet_MechanoidDevastatorTurretEnhanced.label>Blizzard Shards Enhanced</Bullet_MechanoidDevastatorTurretEnhanced.label>
+  <!-- EN: Mechanoid Devastator -->
+  <Gun_MechanoidDevastatorTurret.label>Mechanoid Devastator</Gun_MechanoidDevastatorTurret.label>
+  <!-- EN: Evolved defense building, primarily made to slow down any incoming offenses with its reactive orbs. The fireline Novagun is guided by an AI Smartfire upgrade and scans the surrounding area for thermal signatures and movement. The central weapon system is mounted on an auto turret. -->
+  <Gun_MechanoidDevastatorTurret.description>Evolved defense building, primarily made to slow down any incoming offenses with its reactive orbs. The fireline Novagun is guided by an AI Smartfire upgrade and scans the surrounding area for thermal signatures and movement. The central weapon system is mounted on an auto turret.</Gun_MechanoidDevastatorTurret.description>
+  <!-- EN: Mechanoid Devastator -->
+  <Gun_MechanoidDevastatorTurret.verbs.Verb_Shoot.label>Mechanoid Devastator</Gun_MechanoidDevastatorTurret.verbs.Verb_Shoot.label>
+  <!-- EN: Mechanoid Devastator Enhanced -->
+  <Gun_MechanoidDevastatorTurretEnhanced.label>Mechanoid Devastator Enhanced</Gun_MechanoidDevastatorTurretEnhanced.label>
+  <!-- EN: Evolved defense building, primarily made to slow down any incoming offenses with its reactive orbs. The fireline Novagun is guided by an AI Smartfire upgrade and scans the surrounding area for thermal signatures and movement. The central weapon system is mounted on an auto turret. Upgraded. -->
+  <Gun_MechanoidDevastatorTurretEnhanced.description>Evolved defense building, primarily made to slow down any incoming offenses with its reactive orbs. The fireline Novagun is guided by an AI Smartfire upgrade and scans the surrounding area for thermal signatures and movement. The central weapon system is mounted on an auto turret. Upgraded.</Gun_MechanoidDevastatorTurretEnhanced.description>
+  <!-- EN: Mechanoid Devastator Enhanced -->
+  <Gun_MechanoidDevastatorTurretEnhanced.verbs.Verb_Shoot.label>Mechanoid Devastator Enhanced</Gun_MechanoidDevastatorTurretEnhanced.verbs.Verb_Shoot.label>
+  <!-- EN: Mechanoid Devastator -->
+  <MPC_MechanoidDevastatorTurret.label>Mechanoid Devastator</MPC_MechanoidDevastatorTurret.label>
+  <!-- EN: A turret with a heavy Novagun on top that automatically fires at nearby and distant enemies. Has a chance to explode in an inferno when damaged.\n\nEvolved defense building, primarily made to slow down any incoming offenses with its reactive orbs. The fireline Novagun is guided by an AI Smartfire upgrade and scans the surrounding area for thermal signatures and movement. The central weapon system is mounted on an auto turret. The case can be slightly improved. -->
+  <MPC_MechanoidDevastatorTurret.description>A turret with a heavy Novagun on top that automatically fires at nearby and distant enemies. Has a chance to explode in an inferno when damaged.
+
+Evolved defense building, primarily made to slow down any incoming offenses with its reactive orbs. The fireline Novagun is guided by an AI Smartfire upgrade and scans the surrounding area for thermal signatures and movement. The central weapon system is mounted on an auto turret. The case can be slightly improved.</MPC_MechanoidDevastatorTurret.description>
+</LanguageData>

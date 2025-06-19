@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Magnum Breaker -->
+  <Bullet_MechanoidTrinityTurret.label>Magnum Breaker</Bullet_MechanoidTrinityTurret.label>
+  <!-- EN: Magnum Breaker Enhanced -->
+  <Bullet_MechanoidTrinityTurretEnhanced.label>Magnum Breaker Enhanced</Bullet_MechanoidTrinityTurretEnhanced.label>
+  <!-- EN: Mechanoid Trinity Enhanced -->
+  <Gun_MechanoidTrinityEnhanced.label>Mechanoid Trinity Enhanced</Gun_MechanoidTrinityEnhanced.label>
+  <!-- EN: Evolved defense building with an unbelievable firerate and low accuracy, designed to maw down anything entering its security zone. Has a Trinity Gun, which is fed by 4 large ammunition containers with magnum breaker cartridges inside. The central weapon system is mounted on an auto turret. Needs steel to renew the barrels after heave use. Upgraded. -->
+  <Gun_MechanoidTrinityEnhanced.description>Evolved defense building with an unbelievable firerate and low accuracy, designed to maw down anything entering its security zone. Has a Trinity Gun, which is fed by 4 large ammunition containers with magnum breaker cartridges inside. The central weapon system is mounted on an auto turret. Needs steel to renew the barrels after heave use. Upgraded.</Gun_MechanoidTrinityEnhanced.description>
+  <!-- EN: Mechanoid Trinity Enhanced -->
+  <Gun_MechanoidTrinityEnhanced.verbs.Verb_Shoot.label>Mechanoid Trinity Enhanced</Gun_MechanoidTrinityEnhanced.verbs.Verb_Shoot.label>
+  <!-- EN: Mechanoid Trinity -->
+  <Gun_MechanoidTrinityTurret.label>Mechanoid Trinity</Gun_MechanoidTrinityTurret.label>
+  <!-- EN: Evolved defense building with an unbelievable firerate and low accuracy, designed to maw down anything entering its security zone. Has a Trinity Gun, which is fed by 4 large ammunition containers with magnum breaker cartridges inside. The central weapon system is mounted on an auto turret. Needs steel to renew the barrels after heave use. Can be upgraded. -->
+  <Gun_MechanoidTrinityTurret.description>Evolved defense building with an unbelievable firerate and low accuracy, designed to maw down anything entering its security zone. Has a Trinity Gun, which is fed by 4 large ammunition containers with magnum breaker cartridges inside. The central weapon system is mounted on an auto turret. Needs steel to renew the barrels after heave use. Can be upgraded.</Gun_MechanoidTrinityTurret.description>
+  <!-- EN: Mechanoid Trinity -->
+  <Gun_MechanoidTrinityTurret.verbs.Verb_Shoot.label>Mechanoid Trinity</Gun_MechanoidTrinityTurret.verbs.Verb_Shoot.label>
+  <!-- EN: Mechanoid Trinity -->
+  <MPC_MechanoidTrinityTurret.label>Mechanoid Trinity</MPC_MechanoidTrinityTurret.label>
+  <!-- EN: A turret with a mechanoid trinity gun on top that automatically fires at nearby and distant enemies. Has a chance to explode in an inferno when damaged.\n\nEvolved defense building with an unbelievable firerate and low accuracy, designed to maw down anything entering its security zone. Has a Trinity Gun, which is fed by 4 large ammunition containers with magnum breaker cartridges inside. The central weapon system is mounted on an auto turret. Needs steel to renew the barrels after heave use. Can be upgraded. -->
+  <MPC_MechanoidTrinityTurret.description>A turret with a mechanoid trinity gun on top that automatically fires at nearby and distant enemies. Has a chance to explode in an inferno when damaged.
+
+Evolved defense building with an unbelievable firerate and low accuracy, designed to maw down anything entering its security zone. Has a Trinity Gun, which is fed by 4 large ammunition containers with magnum breaker cartridges inside. The central weapon system is mounted on an auto turret. Needs steel to renew the barrels after heave use. Can be upgraded.</MPC_MechanoidTrinityTurret.description>
+  <!-- EN: Barrel durability -->
+  <MPC_MechanoidTrinityTurret.comps.CompRefuelable.fuelGizmoLabel>Barrel durability</MPC_MechanoidTrinityTurret.comps.CompRefuelable.fuelGizmoLabel>
+  <!-- EN: Shots until barrel change -->
+  <MPC_MechanoidTrinityTurret.comps.CompRefuelable.fuelLabel>Shots until barrel change</MPC_MechanoidTrinityTurret.comps.CompRefuelable.fuelLabel>
+  <!-- EN: Cannot shoot: Needs new barrel -->
+  <MPC_MechanoidTrinityTurret.comps.CompRefuelable.outOfFuelMessage>Cannot shoot: Needs new barrel</MPC_MechanoidTrinityTurret.comps.CompRefuelable.outOfFuelMessage>
+</LanguageData>
