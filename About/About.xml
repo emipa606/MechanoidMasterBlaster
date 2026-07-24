@@ -2,27 +2,19 @@
 <ModMetaData>
   <name>Mechanoid Master Blaster (Continued)</name>
   <packageId>Mlie.MechanoidMasterBlaster</packageId>
-  <author>Mlie</author>
+  <author>Trunken</author>
   <url>https://github.com/emipa606/MechanoidMasterBlaster</url>
   <supportedVersions>
     <li>1.6</li>
   </supportedVersions>
-  <modDependencies>
-    <li>
-      <packageId>brrainz.harmony</packageId>
-      <displayName>Harmony</displayName>
-      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
-      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
-    </li>
-  </modDependencies>
+  <modDependencies />
   <loadAfter>
-    <li>brrainz.harmony</li>
     <li>CETeam.CombatExtended</li>
     <li>XeoNovaDan.TurretExtensions</li>
     <li>AtamanDolinskaja.MoreCrashedShipParts</li>
     <li>Mlie.MechanoidPower</li>
   </loadAfter>
-  <description>[img]https://i.imgur.com/buuPQel.png[/img]
+  <description>[img]https://img.litet.net/logos/Info.png[/img]
 Update of Trunkens mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1731170217
 
@@ -31,20 +23,20 @@ To avoid doubling the size of the mod, it was re-released using only Asset Bundl
 
 - CE-patch is now included in the main CE-mod instead
 
-[img]https://i.imgur.com/pufA0kM.png[/img]
+[img]https://img.litet.net/logos/Notice.png[/img]
 
 [table]
 	[tr]
-		[td][url=https://dsc.gg/mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
-		[td][url=https://github.com/emipa606/MechanoidMasterBlaster][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+		[td][url=https://discord.gg/h5TY6DA][img]https://img.litet.net/logos/Discord.png[/img][/url][/td]
+		[td][url=https://github.com/emipa606/MechanoidMasterBlaster][img]https://img.litet.net/logos/Github.png[/img][/url][/td]
     [/tr]
     [tr]
-        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
-        [td][img]https://i.imgur.com/Be8E2qJ.png[/img][/td]
+        [td][img]https://img.litet.net/logos/SafeToAdd.png[/img][/td]
+        [td][img]https://img.litet.net/logos/RemoveMayWork.png[/img][/td]
     [/tr]
 [/table]
 	
-[img]https://i.imgur.com/Z4GOv8H.png[/img]
+[img]https://img.litet.net/logos/OriginalDescription.png[/img]
 [h1]Project Map[/h1]
 
 Available Turrets: [b]Shockwave Coil[/b] | [b]Nitro Laser[/b] | [b]Salvo Blaster[/b] | [b]Multi Burst[/b] | [b]Devastator[/b]
@@ -150,15 +142,17 @@ Ended up making hundreds of textures for the turrets, here are some examples...
 
 [img]https://i.ibb.co/yy5yZLh/Mechanoid-Turret-OUTSOURCED.png[/img]
 
-[img]https://i.imgur.com/PwoNOj4.png[/img]
+[img]https://img.litet.net/logos/ReportingIssues.png[/img]
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
-[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] or the standalone [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader[/url] and command Ctrl+F12
+[*] Always post your log using the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Log Uploader[/url]
 [*] For best support, please use the Discord-channel for error-reporting.
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
 [*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods
-[/list]</description>
-  <modVersion IgnoreIfNoMatchingField="True">1.6.0</modVersion>
+[/list] 
+
+[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3503503505][img]https://img.shields.io/github/v/release/emipa606/MechanoidMasterBlaster?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | tags: turret upgrades, alien technology</description>
+  <modVersion IgnoreIfNoMatchingField="True">1.6.1</modVersion>
 </ModMetaData>
