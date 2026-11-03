@@ -1,12 +1,13 @@
-# [Mechanoid Master Blaster (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=3503503505)
+# [[1.6] Mechanoid Master Blaster (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=3503503505)
 
 ![Image](https://img.litet.net/logos/Info.png)
 
 Update of Trunkens mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1731170217
 
-**The release of RimWorld 1.6 added improved support for [Asset Bundles](https://github.com/emipa606/AssetBuilder/blob/main/README.md)**.
-To avoid doubling the size of the mod, it was re-released using only Asset Bundles, you can find the previous version of this mod [here](https://steamcommunity.com/sharedfiles/filedetails/?id=2013229253).
+**The release of RimWorld 1.7 added a system where assets like textures and sounds can be cached to improve performance**.
+To avoid doubling the size of the mod, it was re-released with only this cache included, you can find the new version of this mod [here](https://steamcommunity.com/sharedfiles/filedetails/?id=3833228286).
+This version will not receive any further updates.
 
 - CE-patch is now included in the main CE-mod instead
 
@@ -142,4 +143,4 @@ Ended up making hundreds of textures for the turrets, here are some examples...
 
  
 
-[![Image](https://img.shields.io/github/v/release/emipa606/MechanoidMasterBlaster?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/3503503505) | tags: turret upgrades, alien technology
+[![Image](https://img.shields.io/github/v/release/emipa606/MechanoidMasterBlaster?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/3503503505) | alien technology, turret upgrades
