@@ -3,4 +3,30 @@
     <BuildType Name="Release" />
   </Configurations>
   <Project Path="DamagerWorker_BombNoCamShake/DamagerWorker_BombNoCamShake.csproj" />
+  <Folder Name="/.github/">
+    <File Path="../.github/copilot-instructions.md" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ThingDefs_Buildings/">
+    <File Path="../1.7/Defs/ThingDefs_Buildings/Buildings_Guards.xml" />
+    <File Path="../1.7/Defs/ThingDefs_Buildings/Buildings_Heavy.xml" />
+    <File Path="../1.7/Defs/ThingDefs_Buildings/Buildings_Massive.xml" />
+    <File Path="../1.7/Defs/ThingDefs_Buildings/Buildings_Security.xml" />
+    <File Path="../1.7/Defs/ThingDefs_Buildings/Buildings_Support.xml" />
+    <File Path="../1.7/Defs/ThingDefs_Buildings/Buildings_Turrets.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ResearchProjectDefs/">
+    <File Path="../1.7/Defs/ResearchProjectDefs/ResearchProjects_Highend_Turrets.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/DamageDefs/">
+    <File Path="../1.7/Defs/DamageDefs/Damages_Environmental.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/SoundDefs/">
+    <File Path="../1.7/Defs/SoundDefs/World_Oneshots_Turrets.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Patches/">
+    <File Path="../1.7/Patches/CE_MPC_TE_Patch.xml" />
+  </Folder>
+  <Folder Name="/XML/About/">
+    <File Path="../About/about.xml" />
+  </Folder>
 </Solution>
